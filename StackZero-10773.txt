@@ -1,0 +1,66 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#define max 100000
+typedef int element;
+typedef struct
+{
+	element data[max];
+	int top;
+}stacktype;
+void init(stacktype *p)
+{
+	p->top = -1;
+	for (int i = 0; i < max; i++)
+		p->data[i] = 0;
+}
+int is_empty(stacktype *p)
+{
+	return(p->top == -1);
+}
+int is_full(stacktype *p)
+{
+	return(p->top == max - 1);
+}
+void push(stacktype *p, element item)
+{
+	if (is_full(p))
+	{
+		printf("스택포화에러\n");
+		return;
+	}
+	else
+	{
+		p->data[++p->top] = item;
+	}
+}
+void pop(stacktype *p)
+{
+	if (is_empty(p))
+	{
+		printf("스택공백에러\n");
+		exit(1);
+	}
+	else
+	{
+		p->data[p->top--];
+	}
+}
+int main()
+{
+	stacktype s;
+	init(&s);
+	int n, i, sum = 0, m[max] = { 0 };
+	scanf_s("%d", &n);
+	for (i = 0; i < n; i++)
+	{
+		scanf_s("%d", &m[i]);
+		if (m[i] == 0)
+			pop(&s);
+		else
+			push(&s, m[i]);
+	}
+	for (i = 0; i <=s.top; i++)
+		sum += s.data[i];
+	printf("%d\n", sum);
+}
