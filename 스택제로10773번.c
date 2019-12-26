@@ -26,7 +26,7 @@ void push(stacktype *p, element item)
 {
 	if (is_full(p))
 	{
-		printf("ìŠ¤íƒí¬í™”ì—ëŸ¬\n");
+		printf("½ºÅÃÆ÷È­¿¡·¯\n");
 		return;
 	}
 	else
@@ -38,7 +38,7 @@ void pop(stacktype *p)
 {
 	if (is_empty(p))
 	{
-		printf("ìŠ¤íƒê³µë°±ì—ëŸ¬\n");
+		printf("½ºÅÃ°ø¹é¿¡·¯\n");
 		exit(1);
 	}
 	else
@@ -60,7 +60,7 @@ int main()
 		else
 			push(&s, m[i]);
 	}
-	for (i = 0; i <=s.top; i++)
+	for (i = 0; i <= s.top; i++)
 		sum += s.data[i];
 	printf("%d\n", sum);
 }

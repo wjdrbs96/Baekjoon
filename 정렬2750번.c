@@ -5,7 +5,7 @@
 int main()
 {
 	int n, k[max] = { 0 };
-	int tmp,i,j;
+	int tmp, i, j;
 	scanf_s("%d", &n);
 	for (i = 0; i < n; i++)
 	{
@@ -13,14 +13,14 @@ int main()
 	}
 	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < n-1; j++)
+		for (j = 0; j < n - 1; j++)
 		{
-			if (k[j+1] < k[j])
+			if (k[j + 1] < k[j])
 			{
 				tmp = k[j + 1];
 				k[j + 1] = k[j];
 				k[j] = tmp;
-			}	
+			}
 		}
 	}
 	for (i = 0; i < n; i++)

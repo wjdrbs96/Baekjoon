@@ -23,7 +23,7 @@ void merge(int list[], int left, int mid, int right)
 		for (l = i; l <= mid; l++)
 			sorted[k++] = list[l];
 	}
-	for (l = left; l <=right; l++)
+	for (l = left; l <= right; l++)
 	{
 		list[l] = sorted[l];
 	}

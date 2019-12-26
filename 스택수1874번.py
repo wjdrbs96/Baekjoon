@@ -14,6 +14,5 @@ for i in range(1,n+1):
     else:
         print('No')
         exit(0)
-print('\n'.join(result))    # \n 을 기준으로 result를 출력시켜주는 join 함수 
-
+print('\n'.join(result))    # \n 을 기준으로 result를 출력시켜주는 join 함수
 
