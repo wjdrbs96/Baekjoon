@@ -1,12 +1,12 @@
 # Baekjoon
 
 
-<a href="https://www.acmicpc.net/">#백준 온라인 저지 문제풀이</a>
+<a href="https://www.acmicpc.net/"><h1 style="color:blue">백준 온라인 저지 문제풀이</h1></a>
 <p> 백준 사이트에서 알고리즘 문제를 푼 코드 입니다</p>
 
 <hr>
 
-##푼 문제
+<h2>푼 문제</h3>
 
 1158 조세퍼스<br>
 2557 Hello world<br>
