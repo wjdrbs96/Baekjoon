@@ -1,10 +1,9 @@
 //백준 1158번 문제
-package Algorithm;
 
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Josephs {
+public class Main {
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<Integer>();
 
