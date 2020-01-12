@@ -1,10 +1,9 @@
-package Algorithm;
 
 import java.util.Scanner;
 
 // 오래걸린 문제 백준 1003번
 
-public class Main {
+public class B1003 {
 
     public static void main(String[] args) {
         int q = 41;
