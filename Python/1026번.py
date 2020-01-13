@@ -5,6 +5,6 @@ b = list(map(int, input().split()))
 result = 0
 
 for i in range(n):
-    result+= a.pop(a.index(min(a)))*b.pop(b.index(max(b)))
+    result+= a.pop(a.index(min(a))) * b.pop(b.index(max(b)))
 
 print(result)
