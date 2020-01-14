@@ -1,9 +1,7 @@
 name = input()
-l = [] # 알파벳
 t = [] # count
 
 for i in range(26):
-    l.append(chr(97+i))
     t.append(0)
 
 for j in range(len(name)):
