@@ -1,5 +1,4 @@
 books = {}
-l = []
 for _ in range(int(input())):
     book = input()
 
@@ -10,10 +9,10 @@ for _ in range(int(input())):
         books[book] = 1
 
 
+lst=[]
 for key in books.keys():
     if books[key] == max(books.values()):
-        l.append(key)
-
-l.sort()
-print(l[0])
+        lst.append(key)
+lst=sorted(lst)
+print(lst[0])
 
