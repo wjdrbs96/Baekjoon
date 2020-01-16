@@ -24,6 +24,7 @@
 2506 점수계산<br>
 2562 최댓값<br>
 2557 Hello world<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2675.java">2675 문자열 반복</a><br>
 2739 구구단 <br>
 2750 수 정렬하기<br>
 2751 수 정렬하기2<br>
