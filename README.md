@@ -9,6 +9,7 @@
 1015 수열 정렬<br>
 1026 보물 <br>
 1032 명령 프롬프트<br>
+1110 더하기 사이클<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1152.java">1152 단어의 개수</a><br>
 1157 단어 공부<br>
 1158 조세퍼스<br>
@@ -31,7 +32,7 @@
 2798 블랙 잭<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2908%EB%B2%88.java">2908 상수</a><br>
 2920 음계<br>
-2941 크로아티아 알파벳<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2941.java">2941 크로아티아 알파벳</a><br>
 2965 캥거루 세마리 <br>
 3036 링<br>
 3046 R2<br>
