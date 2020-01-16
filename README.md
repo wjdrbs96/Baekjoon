@@ -48,7 +48,7 @@
 10872 팩토리얼<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10950.java">10950 A+B-3</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10951.java">10951 A+B-4</a><br>
-11508 2+1 세일<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11508%EB%B2%88.java">11508 2+1 세일</a><br>
 11654 아스키코드<br>
 11656 접미사 배열<br>
 11721 열 개씩 끊어 출력하기<br>
