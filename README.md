@@ -18,7 +18,7 @@
 2163 초콜릿 자르기<br>
 2231 분해합 <br>
 2438 별 찍기-1<br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2439.java">2439 별 찍기-2</a> <br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2439.java">2439 별 찍기-2</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2440.java">2440 별 찍기-3</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2441.java">2441 별 찍기-4</a><br>
 2506 점수계산<br>
