@@ -9,17 +9,18 @@
 1015 수열 정렬<br>
 1026 보물 <br>
 1032 명령 프롬프트<br>
-1152 단어의 개수<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1152.java">1152 단어의 개수</a><br>
 1157 단어 공부<br>
 1158 조세퍼스<br>
 1302 베스트셀러<br>
-1475 방 번호<br>
+<a href="">1475 방 번호<br>
 1929 소수 구하기<br>
 2163 초콜릿 자르기<br>
 2231 분해합 <br>
 2438 별 찍기-1<br>
-2439 별 찍기-2 <br>
-2440 별 찍기-3<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2439.java">2439 별 찍기-2</a> <br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2440.java">2440 별 찍기-3</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2441.java">2441 별 찍기-4</a><br>
 2506 점수계산<br>
 2562 최댓값<br>
 2557 Hello world<br>
@@ -40,15 +41,13 @@
 10718 We love kriii<br>
 10773 제로<br>
 10808 알파벳 개수<br>
-10809 알파벳 찾기<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10809.java">10809 알파벳 찾기</a><br>
 10814 나이순 정렬<br>
 10871 X보다 작은 수<br>
 10872 팩토리얼<br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10950.java">10950 A+B-3(T)</a>
-10951 A+B-4<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10950.java">10950 A+B-3(S)</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10951.java">10951 A+B-4(S)</a><br>
 11508 2+1 세일<br>
 11654 아스키코드<br>
 11656 접미사 배열<br>
 11721 열 개씩 끊어 출력하기<br>
-
-
