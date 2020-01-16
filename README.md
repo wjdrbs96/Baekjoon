@@ -44,7 +44,7 @@
 10814 나이순 정렬<br>
 10871 X보다 작은 수<br>
 10872 팩토리얼<br>
-<div style="color:blue">10950 A+B-3</div>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10950.java">10950 A+B-3(T)</a>
 10951 A+B-4<br>
 11508 2+1 세일<br>
 11654 아스키코드<br>
