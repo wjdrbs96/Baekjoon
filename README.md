@@ -41,7 +41,7 @@
 3036 링<br>
 3046 R2<br>
 3047 ABC <br>
-5622 다이얼 <br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/5622.java">5622 다이얼</a> <br>
 6603 로또<br>
 7287 등록<br>
 8958 OX퀴즈 <br>
