@@ -10,6 +10,7 @@
 1026 보물 <br>
 1032 명령 프롬프트<br>
 1075 나누기<br>
+1076 저항 <br>
 1110 더하기 사이클<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1152.java">1152 단어의 개수</a><br>
 1157 단어 공부<br>
