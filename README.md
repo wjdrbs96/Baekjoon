@@ -22,7 +22,7 @@
 1357 뒤집힌 덧셈<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1475.java">1475 방 번호</a><br>
 1929 소수 구하기<br>
-2161 카드 <br> 
+2161 카드1 <br> 
 2163 초콜릿 자르기<br>
 2231 분해합 <br>
 2438 별 찍기-1<br>
