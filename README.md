@@ -13,18 +13,18 @@
 1076 저항 <br>
 1110 더하기 사이클<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1152.java">1152 단어의 개수</a><br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1157.java">1157 단어 공부</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1157.java">1157 .단어 공부</a><br>
 1158 조세퍼스<br>
 1159 농구 경기<br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1181.java">1181 단어 정렬</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1181.java">1181 .단어 정렬</a><br>
 1302 베스트셀러<br>
 1316 그룹 단어 체커 <br>
 1330 두 수 비교하기<br>
 1357 뒤집힌 덧셈<br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1427.java">1427 소트인사이드</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1427.java">1427 .소트인사이드</a><br>
 1453 피시방 알바 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1475.java">1475 방 번호</a><br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1700%20~%201799/1764.java">1764 듣보잡</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1700%20~%201799/1764.java">1764 .듣보잡</a><br>
 1929 소수 구하기<br>
 2161 카드1 <br> 
 2163 초콜릿 자르기<br>
@@ -41,7 +41,7 @@
 2739 구구단 <br>
 2741 N찍기<br>
 2742 기찍 N <br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2750.java">2750 수 정렬하기</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2750.java">.2750 수 정렬하기</a><br>
 2751 수 정렬하기2<br>
 2798 블랙 잭<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2908.java">2908 상수</a><br>
