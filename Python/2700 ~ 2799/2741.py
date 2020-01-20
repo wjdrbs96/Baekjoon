@@ -1,3 +1,4 @@
-a,b = map(int, input().split())
+n = int(input())
 
-print(a*b)
+for i in range(n,0,-1):
+    print(i)
