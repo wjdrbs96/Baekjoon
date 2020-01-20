@@ -59,6 +59,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10809.java">10809 알파벳 찾기</a><br>
 10814 나이순 정렬<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10827.java">10827 a^b</a><br> 
+10869 사칙연산 <br>
 10871 X보다 작은 수<br>
 10872 팩토리얼<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10900%20~%2010999/10950.java">10950 A+B-3</a><br>
