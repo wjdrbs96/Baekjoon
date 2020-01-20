@@ -37,7 +37,7 @@
 2557 Hello world<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2600%20~%202699/2675.java">2675 문자열 반복</a><br>
 2739 구구단 <br>
-2741 N찍기
+2741 N찍기<br>
 2750 수 정렬하기<br>
 2751 수 정렬하기2<br>
 2798 블랙 잭<br>
