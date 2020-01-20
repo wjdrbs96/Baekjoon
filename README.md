@@ -21,6 +21,7 @@
 1316 그룹 단어 체커 <br>
 1330 두 수 비교하기<br>
 1357 뒤집힌 덧셈<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1427.java">1427 소트인사이드</a><br>
 1453 피시방 알바 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1475.java">1475 방 번호</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1700%20~%201799/1764.java">1764 듣보잡</a><br>
