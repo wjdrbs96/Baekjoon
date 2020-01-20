@@ -60,6 +60,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10827.java">10827 a^b</a><br> 
 10871 X보다 작은 수<br>
 10872 팩토리얼<br>
+10998 AxB<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10900%20~%2010999/10950.java">10950 A+B-3</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10900%20~%2010999/10951.java">10951 A+B-4</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11500%20~%2011599/11508.java">11508 2+1 세일</a><br>
