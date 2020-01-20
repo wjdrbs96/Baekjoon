@@ -13,10 +13,10 @@
 1076 저항 <br>
 1110 더하기 사이클<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1152.java">1152 단어의 개수</a><br>
-1157 단어 공부<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1157.java">1157 단어 공부</a><br>
 1158 조세퍼스<br>
 1159 농구 경기<br>
-1181 단어 정렬<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1181.java">1181 단어 정렬</a><br>
 1302 베스트셀러<br>
 1316 그룹 단어 체커 <br>
 1330 두 수 비교하기<br>
@@ -52,7 +52,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/5600%20~%205699/5622.java">5622 다이얼</a> <br>
 6603 로또<br>
 7287 등록<br>
-8958 OX퀴즈 <br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/8900%20~%208999/8958.java">8958 OX퀴즈</a><br>
 10718 We love kriii<br>
 10773 제로<br>
 10808 알파벳 개수<br>
