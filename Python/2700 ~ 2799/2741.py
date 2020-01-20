@@ -1,4 +1,3 @@
-n = int(input())
+a,b = map(int, input().split())
 
-for i in range(1,n+1):
-    print(i)
+print(a*b)
