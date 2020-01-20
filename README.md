@@ -41,7 +41,7 @@
 2739 구구단 <br>
 2741 N찍기<br>
 2742 기찍 N <br>
-2750 수 정렬하기<br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2750.java">2750 수 정렬하기</a><br>
 2751 수 정렬하기2<br>
 2798 블랙 잭<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2908.java">2908 상수</a><br>
