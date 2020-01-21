@@ -45,7 +45,7 @@
 2751 수 정렬하기2<br>
 2798 블랙 잭<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2908.java">2908 상수</a><br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2920.java">2920 음계</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2920.java">2920 .음계</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2941.java">2941 크로아티아 알파벳</a><br>
 2965 캥거루 세마리 <br>
 3036 링<br>
