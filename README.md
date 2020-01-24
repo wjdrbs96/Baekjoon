@@ -58,6 +58,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/5600%20~%205699/5622.java">5622 다이얼</a> <br>
 6603 로또<br>
 7287 등록<br>
+8393 합 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/8900%20~%208999/8958.java">8958 OX퀴즈</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/9000%20~%209099/9012.java">9012 .괄호</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11650.java">11650 .좌표 정렬하기</a><br>
