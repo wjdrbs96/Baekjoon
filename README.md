@@ -35,6 +35,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2439.java">2439 별 찍기-2</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2440.java">2440 별 찍기-3</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2441.java">2441 별 찍기-4</a><br>
+2455 지능형 기차<br>
 2506 점수계산<br>
 2562 최댓값<br>
 2557 Hello world<br>
