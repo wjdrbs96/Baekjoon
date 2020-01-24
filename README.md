@@ -74,6 +74,7 @@
 10872 팩토리얼<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10900%20~%2010999/10950.java">10950 A+B-3</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10900%20~%2010999/10951.java">10951 A+B-4</a><br>
+10953 A+B-6<br>
 10998 AxB<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11500%20~%2011599/11508.java">11508 2+1 세일</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11654.java">11654 아스키코드</a><br>
