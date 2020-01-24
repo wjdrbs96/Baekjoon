@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-// 진짜 개 같은 문제 매우 화남
 // 시간초과 계속 떠서 구글링 해서 해결
 // 풀이는 쉬우나 시간초과 안뜨는 풀이는 생각못한 문제
 
