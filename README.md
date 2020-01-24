@@ -69,6 +69,7 @@
 10808 알파벳 개수<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10809.java">10809 알파벳 찾기</a><br>
 10814 나이순 정렬<br>
+10817 세 수<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10827.java">10827 a^b</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10828.java">10828 .스택</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10828_2.java">10828-2 .스택</a><br>
