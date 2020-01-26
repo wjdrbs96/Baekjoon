@@ -40,6 +40,7 @@
 2506 점수계산<br>
 2562 최댓값<br>
 2557 Hello world<br>
+2606 바이러스 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2600%20~%202699/2675.java">2675 문자열 반복</a><br>
 2739 구구단 <br>
 2741 N찍기<br>
