@@ -30,6 +30,7 @@
 2161 카드1 <br> 
 2163 초콜릿 자르기<br>
 2164 카드2 <br>
+2193 이친수<br>
 2231 분해합 <br>
 2438 별 찍기-1<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2439.java">2439 별 찍기-2</a><br>
