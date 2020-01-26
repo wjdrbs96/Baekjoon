@@ -26,6 +26,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1427.java">1427 .소트인사이드</a><br>
 1453 피시방 알바 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1475.java">1475 방 번호</a><br>
+1697 숨바꼭질 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1700%20~%201799/1764.java">1764 .듣보잡</a><br>
 1929 소수 구하기<br>
 2161 카드1 <br> 
