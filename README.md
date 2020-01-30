@@ -72,8 +72,6 @@
 9498 시험 성적<br>
 9633 N-Queen<br>
 10403 나머지<br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11650.java">11650 .좌표 정렬하기</a><br>
-<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11651.java">11651 .좌표 정렬하기2</a><br>
 10718 We love kriii<br>
 10773 제로<br>
 10808 알파벳 개수<br>
@@ -94,6 +92,8 @@
 11021 A+B-7<br>
 11403 경로 찾기<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11500%20~%2011599/11508.java">11508 2+1 세일</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11650.java">11650 .좌표 정렬하기</a><br>
+<a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11651.java">11651 .좌표 정렬하기2</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11654.java">11654 아스키코드</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11656.java">11656 접미사 배열</a><br>
 11718 그대로 출력하기<br>
