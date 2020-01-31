@@ -36,6 +36,7 @@
 2164 카드2 <br>
 2193 이친수<br>
 2231 분해합 <br>
+2309 일곱난쟁이 <br>
 2438 별 찍기-1<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2439.java">2439 별 찍기-2</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2440.java">2440 별 찍기-3</a><br>
