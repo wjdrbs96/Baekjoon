@@ -94,6 +94,7 @@
 10953 A+B-6<br>
 10998 AxB<br>
 11021 A+B-7<br>
+11047 동전 0 <br>
 11403 경로 찾기<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11500%20~%2011599/11508.java">11508 2+1 세일</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11600%20~%2011699/11650.java">11650 .좌표 정렬하기</a><br>
