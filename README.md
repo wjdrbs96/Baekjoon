@@ -85,6 +85,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10828_2.java">10828-2 .스택</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10800%20~%2010899/10845.java">10845 .큐</a><br>
 10869 사칙연산 <br>
+10870 피보나치 수 5<br>
 10871 X보다 작은 수<br>
 10872 팩토리얼<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10900%20~%2010999/10950.java">10950 A+B-3</a><br>
