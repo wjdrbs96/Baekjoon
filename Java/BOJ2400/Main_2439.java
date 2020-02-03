@@ -15,6 +15,6 @@ public class Main_2439 {
                 System.out.print("*");
             }
             System.out.println();
-    }
+        }
     }
 }

@@ -73,6 +73,7 @@
 6603 로또<br>
 7287 등록<br>
 7568 덩치 <br>
+7576 토마토<br>
 8393 합 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/8900%20~%208999/8958.java">8958 OX퀴즈</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/9000%20~%209099/9012.java">9012 .괄호</a><br>
