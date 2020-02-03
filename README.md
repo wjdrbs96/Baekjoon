@@ -30,6 +30,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1700%20~%201799/1764.java">1764 .듣보잡</a><br>
 1904 01타일 <br>
 1929 소수 구하기<br>
+1972 최소 힙 <br>
 2133 타일 채우기 <br>
 2161 카드1 <br> 
 2163 초콜릿 자르기<br>

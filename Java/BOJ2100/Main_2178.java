@@ -24,7 +24,7 @@ public class Main_2178 {
 
 
     public static void BFS(int x, int y) {
-        Queue<Save> q = new LinkedList<Save>();
+        Queue<Save> q = new LinkedList();
         q.add(new Save(x, y));
 
         while (!q.isEmpty()) {
