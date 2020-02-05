@@ -30,6 +30,7 @@
 1697 숨바꼭질 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1700%20~%201799/1764.java">1764 .듣보잡</a><br>
 1904 01타일 <br>
+1912 연속합 <br>
 1929 소수 구하기<br>
 1932 정수 삼각형 <br>
 1972 최소 힙 <br>
