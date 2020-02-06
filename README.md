@@ -102,6 +102,7 @@
 10872 팩토리얼<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10900%20~%2010999/10950.java">10950 A+B-3</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/10900%20~%2010999/10951.java">10951 A+B-4</a><br>
+10952 A+B-5<br>
 10953 A+B-6<br>
 10998 AxB<br>
 11021 A+B-7<br>
