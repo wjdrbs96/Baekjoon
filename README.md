@@ -77,6 +77,7 @@
 3046 R2<br>
 3047 ABC <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/3000%20~%203099/3052.java">3052 .나누기</a><br>
+4673 셀프 넘버<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/5600%20~%205699/5622.java">5622 다이얼</a> <br>
 6603 로또<br>
 7287 등록<br>
