@@ -62,6 +62,7 @@
 2748 피보나치 수 2 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2750.java">2750 .수 정렬하기</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2751.java">2751 .수 정렬하기2</a><br>
+2753 윤년<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2775.java">2775 .부녀회장 </a><br>
 2798 블랙 잭<br>
 2884 알람 시계<br>
