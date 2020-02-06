@@ -85,6 +85,8 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/9000%20~%209099/9012.java">9012 .괄호</a><br>
 9498 시험 성적<br>
 9633 N-Queen<br>
+10171 고양이<br>
+10172 개<br>
 10403 나머지<br>
 10718 We love kriii<br>
 10773 제로<br>
