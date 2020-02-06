@@ -59,6 +59,7 @@
 2739 구구단 <br>
 2741 N찍기<br>
 2742 기찍 N <br>
+2743 단어 길이 재기 <br>
 2747 피보나치 수<br>
 2748 피보나치 수 2 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2750.java">2750 .수 정렬하기</a><br>
