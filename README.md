@@ -67,6 +67,7 @@
 2753 윤년<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2775.java">2775 .부녀회장 </a><br>
 2798 블랙 잭<br>
+2822 점수 계산<br>
 2884 알람 시계<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2908.java">2908 상수</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2920.java">2920 .음계</a><br>
