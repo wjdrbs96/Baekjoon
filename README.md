@@ -21,6 +21,7 @@
 1159 농구 경기<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1181.java">1181 .단어 정렬</a><br>
 1260 DFS와 BFS<br>
+1264 모음의 개수<br>
 1302 베스트셀러<br>
 1316 그룹 단어 체커 <br>
 1330 두 수 비교하기<br>
