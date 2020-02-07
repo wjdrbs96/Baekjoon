@@ -42,6 +42,7 @@
 2178 미로 탐색<br>
 2193 이친수<br>
 2231 분해합 <br>
+2292 벌집 <br>
 2309 일곱난쟁이 <br>
 2438 별 찍기-1<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2439.java">2439 별 찍기-2</a><br>
@@ -69,6 +70,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2775.java">2775 .부녀회장 </a><br>
 2798 블랙 잭<br>
 2822 점수 계산<br>
+2839 설탕 배달<br>
 2884 알람 시계<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2908.java">2908 상수</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2920.java">2920 .음계</a><br>
@@ -79,6 +81,7 @@
 3047 ABC <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/3000%20~%203099/3052.java">3052 .나누기</a><br>
 4673 셀프 넘버<br>
+5596 시험 점수<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/5600%20~%205699/5622.java">5622 다이얼</a> <br>
 6603 로또<br>
 7287 등록<br>
