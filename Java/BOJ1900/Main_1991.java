@@ -17,7 +17,7 @@ class TreeNode {
 class Tree {
     TreeNode root;
 
-    public Tree(char data, char left, char right) {
+    public Tree(char data, char left, char right) {   //90번 째 줄 때 노드 3개 만들어짐
 
         if (data == '.') {
             root = new TreeNode(data);
@@ -43,7 +43,7 @@ class Tree {
             return;
         }
 
-        if (node.data == data) {
+        if (node.data == data) {        // if 문이 있는 이유가 뭘까..
             if (left != '.') {
                 node.left = new TreeNode(left);
             }
@@ -52,7 +52,7 @@ class Tree {
             }
         } else {
             next(node.left, data, left, right);
-            next(node.right,data, left, right);
+            next(node.right, data, left, right);
         }
     }
 

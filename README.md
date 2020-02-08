@@ -13,6 +13,7 @@
 1065 한수 <br>
 1075 나누기<br>
 1076 저항 <br>
+1100 하얀 칸 <br>
 1110 더하기 사이클<br>
 1149 RGB 거리<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1100%20~%201199/1152.java">1152 단어의 개수</a><br>
@@ -131,4 +132,6 @@
 11720 숫자의 합<br>
 11721 열 개씩 끊어 출력하기<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/11700%20~%2011799/11728.java">11728. 배열 합치기</a><br>
+11866 요세푸스 문제 O <br>
+
 
