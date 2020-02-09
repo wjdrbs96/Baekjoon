@@ -1,8 +1,9 @@
-<a href="https://www.acmicpc.net/"><h1 style="color:blue">백준 온라인 저지 문제풀이</h1></a>
+#[백준 온라인 저지 문제풀이](https://www.acmicpc.net/)
+
 <p> 백준 사이트에서 알고리즘 문제를 푼 코드 입니다</p>
 
 
-<h2>푼 문제</h3>
+### 푼 문제
 1000 A+B<br>
 1001 A-B<br>
 1003 피보나치 함수<br>
