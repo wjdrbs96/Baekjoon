@@ -31,6 +31,7 @@
 1316 그룹 단어 체커 <br>
 1330 두 수 비교하기<br>
 1357 뒤집힌 덧셈<br>
+1373 2진수 8진수<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1427.java">1427 .소트인사이드</a><br>
 1453 피시방 알바 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/1400%20~%201499/1475.java">1475 방 번호</a><br>
@@ -62,6 +63,7 @@
 2557 Hello world<br>
 2577 숫자의 개수 <br>
 2588 곱셈 <br>
+2605 줄 세우기<br>
 2606 바이러스 <br>
 2630 색종이 만들기<br>
 2667 단지번호붙이기 <br>
