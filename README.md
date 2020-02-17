@@ -81,6 +81,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2751.java">2751 .수 정렬하기2</a><br>
 2753 윤년<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2700%20~%202799/2775.java">2775 .부녀회장 </a><br>
+2789 유학 금지<br>
 2798 블랙 잭<br>
 2822 점수 계산<br>
 2839 설탕 배달<br>
@@ -89,6 +90,7 @@
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2920.java">2920 .음계</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2941.java">2941 크로아티아 알파벳</a><br>
 2965 캥거루 세마리 <br>
+2979 트럭 주차<br>
 3036 링<br>
 3046 R2<br>
 3047 ABC <br>
