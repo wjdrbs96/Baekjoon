@@ -43,6 +43,7 @@
 1932 정수 삼각형 <br>
 1972 최소 힙 <br>
 1991 트리 순회<br>
+2010 플러그 <br>
 2133 타일 채우기 <br>
 2161 카드1 <br> 
 2163 초콜릿 자르기<br>
@@ -95,8 +96,10 @@
 2902 KMP는 왜 KMP일까? <br>
 2903 중앙 이동 알고리즘 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2908.java">2908 상수</a><br>
+2914 저작권 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2920.java">2920 .음계</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2941.java">2941 크로아티아 알파벳</a><br>
+2953 나는 요리사다 <br> 
 2965 캥거루 세마리 <br>
 2979 트럭 주차<br>
 3036 링<br>
