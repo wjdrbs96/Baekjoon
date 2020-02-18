@@ -92,6 +92,8 @@
 2864 5와 6의 차이 <br>
 2869 달팽이는 올라가고 싶다<br>
 2884 알람 시계<br>
+2902 KMP는 왜 KMP일까? <br>
+2903 중앙 이동 알고리즘 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2908.java">2908 상수</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2920.java">2920 .음계</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2941.java">2941 크로아티아 알파벳</a><br>
