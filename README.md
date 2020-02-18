@@ -52,6 +52,7 @@
 2231 분해합 <br>
 2292 벌집 <br>
 2309 일곱난쟁이 <br>
+2420 사파리월드 <br>
 2438 별 찍기-1<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2439.java">2439 별 찍기-2</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2400%20~%202499/2440.java">2440 별 찍기-3</a><br>
@@ -66,6 +67,7 @@
 2588 곱셈 <br>
 2605 줄 세우기<br>
 2606 바이러스 <br>
+2609 최대공약수와 최소공배수 <br>
 2630 색종이 만들기<br>
 2667 단지번호붙이기 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2600%20~%202699/2675.java">2675 문자열 반복</a><br>
@@ -86,6 +88,9 @@
 2798 블랙 잭<br>
 2822 점수 계산<br>
 2839 설탕 배달<br>
+2845 파티가 끝나고 난 뒤<br>
+2864 5와 6의 차이 <br>
+2869 달팽이는 올라가고 싶다<br>
 2884 알람 시계<br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2908.java">2908 상수</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2900%20~%202999/2920.java">2920 .음계</a><br>
