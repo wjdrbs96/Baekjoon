@@ -117,6 +117,7 @@
 8393 합 <br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/8900%20~%208999/8958.java">8958 OX퀴즈</a><br>
 <a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/9000%20~%209099/9012.java">9012 .괄호</a><br>
+9093 단어 뒤집기<br>
 9498 시험 성적<br>
 9633 N-Queen<br>
 10171 고양이<br>
