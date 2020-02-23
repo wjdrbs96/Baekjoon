@@ -1,29 +1,50 @@
 package Baekjoon.Java.BOJ17200;
 
-import java.util.Scanner;
+import java.io.*;
 import java.util.Stack;
 
 public class Main_17298 {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        Stack<Integer> stack = new Stack<>();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int N = input.nextInt();
+        int n = Integer.parseInt(br.readLine());
+        int[] list = new int[n];
 
-        stack.push(input.nextInt());
-        for (int i = 0; i < N - 1; ++i) {
-            int a = input.nextInt();
-            if (stack.peek() < a) {
-                System.out.print(a + " ");
-            }
-            else {
-                stack.push(a);
-            }
+        int[]answer = new int[n];
+        String[] temp = br.readLine().split(" ");
 
-
-            
+        for (int i = 0; i < n; ++i) {
+            list[i] = Integer.parseInt(temp[i]);
         }
 
+        Stack<Integer> stack = new Stack<>();
+        stack.push(0);
+
+        for (int i = 1; i < n; ++i) {
+            if (stack.isEmpty()) {
+                stack.push(i);
+            }
+
+            while (!stack.isEmpty() && list[stack.peek()] < list[i]) {
+                answer[stack.pop()] = list[i];
+            }
+
+            stack.push(i);
+
+        }
+
+        while (!stack.empty()) {
+            answer[stack.pop()] = -1;
+        }
+
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        for (int i = 0; i < n; ++i) {
+            bw.write(answer[i] + " ");
+        }
+
+        bw.write("\n");
+        bw.flush();
 
 
 
