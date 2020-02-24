@@ -34,7 +34,8 @@ public class Main_1697 {
                 visit[N * 2] = visit[N] + 1;
             }
         }
-        System.out.println(visit[K] - 1);
+
+        System.out.println(visit[K] - 1);         // 시작이 visit[N] = 1로 시작했기 때문에 -1을 해줘야함
     }
 
     public static void main(String[] args) {
