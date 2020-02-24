@@ -19,17 +19,17 @@ public class Main_1697 {
 
             if (N == K) break;
 
-            if (N + 1 <= 100000 && visit[N+1] == 0) {
+            if (N + 1 <= 100000 && visit[N + 1] == 0) {
                 q.offer(N + 1);
                 visit[N + 1] = visit[N] + 1;
             }
 
-            if (N - 1 >= 0 && visit[N-1] == 0) {
+            if (N - 1 >= 0 && visit[N - 1] == 0) {
                 q.offer(N - 1);
                 visit[N - 1] = visit[N] + 1;
             }
 
-            if (N * 2 <= 100000 && visit[N*2] == 0) {
+            if (N * 2 <= 100000 && visit[N * 2] == 0) {
                 q.offer(N * 2);
                 visit[N * 2] = visit[N] + 1;
             }
