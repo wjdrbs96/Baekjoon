@@ -10,6 +10,7 @@ public class Main_2312 {
         int n = input.nextInt();
 
         for (int i = 0; i < n; ++i) {
+
             int[] list = new int[100001];
             int test = input.nextInt();
 
