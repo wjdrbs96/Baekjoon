@@ -28,7 +28,7 @@ public class Main_2312 {
 
             for (int j = 1; j <= 100000; ++j) {
                 if (list[j] != 0) {
-                    System.out.println(j +" " + list[j]);
+                    System.out.println(j + " " + list[j]);
                 }
             }
 
