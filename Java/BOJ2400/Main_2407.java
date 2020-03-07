@@ -63,8 +63,8 @@ public class Main_2407 {
         list = new BigInteger[1001][1001];
         list[1][0] = list[1][1] = big;
 
-        for(int i = 2;i <= n; i++) {
-            for(int j = 0;j <= i; j++) {
+        for(int i = 2; i <= n; i++) {
+            for(int j = 0; j <= i; j++) {
                 if(i == j || j == 0)
                     list[i][j] = big;
                 else
