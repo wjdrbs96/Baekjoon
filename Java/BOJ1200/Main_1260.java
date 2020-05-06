@@ -12,9 +12,9 @@ public class Main_1260 {
 
     public Main_1260(int size) {
         this.size = size;
-        adj = new int[size+1][size+1];
-        visited = new boolean[size+1];
-        visit = new boolean[size+1];
+        adj = new int[size + 1][size + 1];
+        visited = new boolean[size + 1];
+        visit = new boolean[size + 1];
     }
 
     public void Edge(int start, int end) {
