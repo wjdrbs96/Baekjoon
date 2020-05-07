@@ -65,10 +65,5 @@ public class Main_2178 {
         BFS(1, 1);
         System.out.println(adj[N][M]);
 
-
-
-
-
-
     }
 }
