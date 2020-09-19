@@ -50,6 +50,7 @@ public class Main_13023 {
     }
 
     static void dfs(int start, int depth) {
+        // 친구 관계를 4개만 찾으면 되기 때문에 5까지만 확인
         if (depth == 5) {
             ans = 1;
             return;
@@ -63,7 +64,7 @@ public class Main_13023 {
                 dfs(i, depth + 1);
             }
         }
-        // 끝까지 갔다 왔는데 depth를 만족하지 못하면 다시 다른 노드부터 시작해야 하기 때문에 방문체크 초기화
+        // 방문체크 초기화
         visit[start] = false;
     }
 }
