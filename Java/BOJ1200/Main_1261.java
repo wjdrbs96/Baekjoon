@@ -1,5 +1,6 @@
 package Baekjoon.Java.BOJ1200;
 
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -11,58 +12,53 @@ public class Main_1261 {
     static boolean[][] visit;
     static int[] dx = {1, -1, 0, 0};
     static int[] dy = {0, 0, 1, -1};
-    static int count = 0;
-
-    public static void bfs(int x, int y) {
-        Queue<Miro> queue = new LinkedList<>();
-        visit[x][y] = true;
-        queue.offer(new Miro(x, y));
-
-        out:while (!queue.isEmpty()) {
-            Miro m = queue.poll();
-            for (int i = 0; i < 4; ++i) {
-                int nx = m.x + dx[i];
-                int ny = m.y + dy[i];
-
-                if (nx == M && ny == N) {
-                    break out;
-                }
-
-                if (1 <= nx && nx <= M && 1 <= ny && ny <= N) {
-                    if (!visit[nx][ny] && adj[nx][ny] == 0) {
-                        queue.offer(new Miro(nx, ny));
-                    }
-                    else {
-                        adj[nx][ny] = 0;
-                        queue.offer(new Miro(nx, ny));
-                        adj[nx][ny] = adj[m.x][m.y] + 1;
-                    }
-                    visit[nx][ny] = true;
-                }
-
-            }
-        }
-    }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        N = input.nextInt();
         M = input.nextInt();
+        N = input.nextInt();
 
-        adj = new int[M + 1][N + 1];
-        visit = new boolean[M + 1][N + 1];
+        adj = new int[N + 1][M + 1];
+        visit = new boolean[N + 1][M + 1];
 
-        for (int i = 0; i < M; ++i) {
-            String s = input.next();
-            for (int j = 0; j < s.length(); ++j) {
-                adj[i][j] = s.charAt(j) - '0';
+        int j = 1;
+        for (int i = 1; i <= N; ++i) {
+            String line = input.next();
+            for (char ch : line.toCharArray()) {
+                adj[i][j] = Integer.parseInt(String.valueOf(ch));
             }
+            j++;
         }
 
-        bfs(1, 1);
+        bfs(new Miro(1, 1));
         System.out.println(adj[M][N]);
+    }
 
+    static void bfs(Miro miro) {
+        Queue<Miro> queue = new LinkedList<>();
+        queue.offer(miro);
+
+        while (!queue.isEmpty()) {
+            Miro miro1 = queue.poll();
+            int x = miro1.x;
+            int y = miro1.y;
+
+
+            for (int i = 0; i < 4; ++i) {
+                int nx = dx[i] + x;
+                int ny = dy[i] + y;
+
+                if (nx > 0 && nx < N + 1 && ny > 0 && ny < M + 1) {
+                    if (!visit[nx][ny]) {
+                        adj[nx][ny] += adj[x][y];
+                        visit[nx][ny] = true;
+                        queue.offer(new Miro(nx, ny));
+                    }
+                }
+            }
+
+        }
     }
 }
 
