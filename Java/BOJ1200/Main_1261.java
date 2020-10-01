@@ -8,7 +8,6 @@ public class Main_1261 {
     static int N;
     static int M;
     static int[][] adj;
-    static int[][] dist;
     static boolean[][] visit;
     static int[] dx = {1, -1, 0, 0};
     static int[] dy = {0, 0, 1, -1};
@@ -20,7 +19,6 @@ public class Main_1261 {
         N = input.nextInt();
 
         adj = new int[N + 1][M + 1];
-        dist = new int[N + 1][M + 1];
         visit = new boolean[N + 1][M + 1];
 
         for (int i = 1; i <= N; ++i) {
@@ -53,11 +51,11 @@ public class Main_1261 {
 
                 if (nx > 0 && nx < N + 1 && ny > 0 && ny < M + 1 && !visit[nx][ny]) {
                     if (adj[nx][ny] == 1) {
-                        dist[nx][ny] = dist[x][y] + 1;
+                        adj[nx][ny] = adj[x][y] + 1;
                         deque.addFirst(new Miro(nx, ny));
                     }
                     else {
-                        dist[nx][ny] = dist[x][y];
+                        adj[nx][ny] = adj[x][y];
                         deque.addLast(new Miro(nx, ny));
                     }
                     visit[nx][ny] = true;
@@ -65,7 +63,7 @@ public class Main_1261 {
             }
         }
 
-        System.out.println(dist[N][M]);
+        System.out.println(adj[N][M]);
     }
 }
 
