@@ -10,16 +10,15 @@ public class Main_5585 {
         int change = 1000 - scanner.nextInt();
         int result = 0;
 
-        int [] coins = {500,100,50,10,5,1};
+        int [] coins = {500, 100, 50, 10, 5, 1};
 
-        for(int coin : coins){
+        for (int coin : coins){
+            if (coin > change) continue;
 
-            if (coin > change)
-                continue;
             result += change / coin;
             change %= coin;
-
         }
+
         System.out.println(result);
     }
 }
