@@ -11,7 +11,7 @@ public class Main_2206 {
     static int[] dx = {1, -1, 0, 0};
     static int[] dy = {0, 0, 1, -1};
 
-    public static void BFS(int x, int y, int count) {
+    public static void bfs(int x, int y, int count) {
         Queue<Save> q = new LinkedList<>();
         q.offer(new Save(x, y, count));
 
@@ -21,6 +21,7 @@ public class Main_2206 {
             if (s.x == N && s.y == M) {
                 break;
             }
+
             for (int i = 0; i < 4; ++i) {
                 int nx = s.x + dx[i];
                 int ny = s.y + dy[i];
@@ -56,7 +57,7 @@ public class Main_2206 {
             }
         }
 
-        BFS(1, 1, 0);
+        bfs(1, 1, 0);
 
     }
 }
