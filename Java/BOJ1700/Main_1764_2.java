@@ -1,7 +1,6 @@
 package Baekjoon.Java.BOJ1700;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 public class Main_1764_2 {
     public static void main(String[] args) {
@@ -24,8 +23,7 @@ public class Main_1764_2 {
             }
         }
 
-        Stream<String> sorted = list.stream().sorted();
         System.out.println(list.size());
-        sorted.forEach(s -> System.out.println(s));
+        list.stream().sorted().forEach(s -> System.out.println(s));
     }
 }
