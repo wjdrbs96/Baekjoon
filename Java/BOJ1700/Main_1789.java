@@ -8,7 +8,6 @@ public class Main_1789 {
         Scanner scan = new Scanner(System.in);
         long num = scan.nextLong();
         long sum = 0;
-        int count = 0;
 
         int i = 0;
         while (true) {
