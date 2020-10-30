@@ -10,16 +10,15 @@ public class Main_1789 {
         long sum = 0;
         int count = 0;
 
-        for(int i=1; ; i++) {
+        int i = 0;
+        while (true) {
+            sum += i;
             if (sum > num) {
                 break;
             }
-            sum += i;
-            count ++;
+            i++;
         }
-
-        System.out.println(count-1);
+        System.out.println(i - 1);
         scan.close();
     }
-
 }
