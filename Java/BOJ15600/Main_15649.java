@@ -20,7 +20,7 @@ public class Main_15649 {
     static void dfs(int i) {
         if (i == M) {
             for (int val : list) {
-                //System.out.print(val + " ");
+                System.out.print(val + " ");
             }
 
             System.out.println();
@@ -33,12 +33,7 @@ public class Main_15649 {
                 list[i] = p + 1;
                 dfs(i + 1);
                 visit[p] = false;
-
-                for (boolean b: visit) {
-                    System.out.print(b + " ");
-                }
             }
-            System.out.println();
         }
     }
 }
