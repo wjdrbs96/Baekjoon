@@ -10,13 +10,13 @@ public class Main_10871 {
 
         int[] q = new int[n];
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             q[i] = input1.nextInt();
         }
 
 
-        for(int j=0; j < n; j++){
-            if(q[j] < m){
+        for (int j = 0; j < n; j++) {
+            if (q[j] < m) {
                 System.out.print(q[j] + " ");
             }
         }

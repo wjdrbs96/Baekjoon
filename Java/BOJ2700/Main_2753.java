@@ -10,8 +10,7 @@ public class Main_2753 {
 
         if (n % 4 == 0 && n % 100 != 0 || n % 400 == 0) {
             System.out.println(1);
-        }
-        else {
+        } else {
             System.out.println(0);
         }
     }

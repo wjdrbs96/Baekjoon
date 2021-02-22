@@ -14,7 +14,7 @@ public class Main_2562 {
         }
 
         System.out.println(Collections.max(list));
-        System.out.println(list.indexOf(Collections.max(list))+1);
+        System.out.println(list.indexOf(Collections.max(list)) + 1);
 
 
     }

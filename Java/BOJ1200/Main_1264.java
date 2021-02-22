@@ -8,8 +8,16 @@ public class Main_1264 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         List<Character> list = new ArrayList<>();
-        list.add('a'); list.add('A'); list.add('e'); list.add('E'); list.add('o');
-        list.add('O'); list.add('i'); list.add('I'); list.add('u'); list.add('U');
+        list.add('a');
+        list.add('A');
+        list.add('e');
+        list.add('E');
+        list.add('o');
+        list.add('O');
+        list.add('i');
+        list.add('I');
+        list.add('u');
+        list.add('U');
 
         int count = 0;
 

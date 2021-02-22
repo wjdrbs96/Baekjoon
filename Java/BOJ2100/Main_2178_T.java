@@ -22,7 +22,7 @@ public class Main_2178_T {
         for (int i = 1; i < N + 1; ++i) {
             String line = input.next();
             for (int j = 1; j < M + 1; ++j) {
-                adj[i][j] = (int)line.charAt(j - 1) - 48;
+                adj[i][j] = (int) line.charAt(j - 1) - 48;
             }
         }
 

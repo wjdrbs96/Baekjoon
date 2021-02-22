@@ -23,12 +23,10 @@ public class Main_5544 {
             if (num1Score < num2Score) {
                 hm.put(num1, hm.get(num1));
                 hm.put(num2, hm.get(num2) + 3);
-            }
-            else if (num1Score == num2Score) {
+            } else if (num1Score == num2Score) {
                 hm.put(num1, hm.get(num1) + 1);
                 hm.put(num2, hm.get(num2) + 1);
-            }
-            else {
+            } else {
                 hm.put(num1, hm.get(num1) + 3);
                 hm.put(num2, hm.get(num2));
             }

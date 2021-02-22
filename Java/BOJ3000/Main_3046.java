@@ -8,7 +8,7 @@ public class Main_3046 {
 
         int R1 = input.nextInt();
         int s = input.nextInt();
-        int R2 = s*2 - R1;
+        int R2 = s * 2 - R1;
         System.out.println(R2);
     }
 }

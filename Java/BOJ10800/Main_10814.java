@@ -8,7 +8,7 @@ class Person implements Comparable<Person> {
     int age;
     String name;
 
-    public Person (int age, String name) {
+    public Person(int age, String name) {
         this.age = age;
         this.name = name;
     }
@@ -19,14 +19,15 @@ class Person implements Comparable<Person> {
 
 
 }
+
 public class Main_10814 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ArrayList<Person> list = new ArrayList<Person>();
         int n = input.nextInt();
 
-        for (int i =0; i < n; ++i) {
-            Person p = new Person(input.nextInt(),input.next());
+        for (int i = 0; i < n; ++i) {
+            Person p = new Person(input.nextInt(), input.next());
             list.add(p);
         }
 

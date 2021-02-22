@@ -8,7 +8,7 @@ public class Main_11654 {
 
         String a = input.next();
         char p = a.charAt(0);
-        System.out.println((int)p);
+        System.out.println((int) p);
 
     }
 }

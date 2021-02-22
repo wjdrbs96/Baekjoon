@@ -1,5 +1,6 @@
 //백준 1158번 문제
 package Baekjoon.Java.BOJ1100;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -20,6 +21,6 @@ public class Main_1158 {
             c = c + 2;
             c = c % list.size();
         }
-        System.out.println(list.remove()+">");
+        System.out.println(list.remove() + ">");
     }
 }

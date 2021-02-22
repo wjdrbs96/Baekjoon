@@ -17,7 +17,7 @@ public class Main_5063 {
                 System.out.println("do not advertise");
             } else if (r == e - c) {
                 System.out.println("does not matter");
-            } else  {
+            } else {
                 System.out.println("advertise");
             }
         }

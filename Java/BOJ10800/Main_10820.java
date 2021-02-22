@@ -16,14 +16,11 @@ public class Main_10820 {
             for (int i = 0; i < s.length(); ++i) {
                 if (s.charAt(i) >= 65 && s.charAt(i) <= 90) {
                     Upper++;
-                }
-                else if (s.charAt(i) >= 97 && s.charAt(i) <= 122) {
+                } else if (s.charAt(i) >= 97 && s.charAt(i) <= 122) {
                     lower++;
-                }
-                else if (s.charAt(i) == ' ') {
+                } else if (s.charAt(i) == ' ') {
                     space++;
-                }
-                else if (s.charAt(i) >= 48 && s.charAt(i) <= 57) {
+                } else if (s.charAt(i) >= 48 && s.charAt(i) <= 57) {
                     number++;
                 }
             }

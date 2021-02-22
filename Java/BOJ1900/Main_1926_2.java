@@ -41,8 +41,7 @@ public class Main_1926_2 {
         if (count == 0) {
             System.out.println(0);
             System.out.println(0);
-        }
-        else {
+        } else {
             System.out.println(count);
             System.out.println(Collections.max(pr));
         }

@@ -11,20 +11,18 @@ public class Main_2506 {
         for (int i = 0; i < n; ++i) {
             list[i] = input.nextInt();
         }
-        int sum =0;
+        int sum = 0;
         int count = 0;
 
         for (int j = 0; j < n; ++j) {
             if (list[j] == 1) {
                 count++;
                 if (count == 1) {
-                    sum+=1;
+                    sum += 1;
+                } else {
+                    sum += count;
                 }
-                else {
-                    sum+=count;
-                }
-            }
-            else{
+            } else {
                 count = 0;
             }
         }

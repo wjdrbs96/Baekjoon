@@ -22,8 +22,7 @@ public class Main_2576 {
 
         if (sum == 0) {
             System.out.println(-1);
-        }
-        else {
+        } else {
             System.out.println(sum);
             System.out.println(Collections.min(list));
         }

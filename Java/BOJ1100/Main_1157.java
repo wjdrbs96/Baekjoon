@@ -1,4 +1,5 @@
 package Baekjoon.Java.BOJ1100;
+
 import java.util.Scanner;
 
 public class Main_1157 {
@@ -12,10 +13,10 @@ public class Main_1157 {
 
         for (int i = 0; i < s.length(); ++i) {
             count[s.charAt(i) - 65]++;
-            if (max < count[s.charAt(i)-65]) {
-                max = count[s.charAt(i)-65];
+            if (max < count[s.charAt(i) - 65]) {
+                max = count[s.charAt(i) - 65];
                 result = s.charAt(i);
-            } else if (max == count[s.charAt(i)-65]) {
+            } else if (max == count[s.charAt(i) - 65]) {
                 result = '?';
             }
         }

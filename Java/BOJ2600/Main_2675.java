@@ -19,7 +19,7 @@ public class Main_2675 {
                 }
             }
             System.out.println(list.toString());
-            list.delete(0,list.length());
+            list.delete(0, list.length());
         }
     }
 }

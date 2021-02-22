@@ -35,8 +35,5 @@ public class Main_3009 {
         System.out.println(saveX + " " + saveY);
 
 
-
-
-
     }
 }

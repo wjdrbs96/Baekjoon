@@ -19,7 +19,7 @@ public class Main_7576 {
             }
         }
 
-        while(!q.isEmpty()) {
+        while (!q.isEmpty()) {
             Save s = q.poll();
 
             for (int i = 0; i < 4; ++i) {
@@ -44,9 +44,7 @@ public class Main_7576 {
 
             System.out.println(Collections.max(list) - 1);
 
-        }
-
-        else {
+        } else {
             System.out.println(-1);
         }
 

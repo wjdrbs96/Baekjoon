@@ -16,8 +16,7 @@ public class Main_10988 {
 
         if (s.equals(name)) {
             System.out.println(1);
-        }
-        else {
+        } else {
             System.out.println(0);
         }
     }

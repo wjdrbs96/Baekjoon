@@ -11,7 +11,7 @@ public class Main_10809 {
 
         for (int i = 0; i < 26; ++i) {
             list[i] = -1;
-            alpha[i] = (char)(97 + i);
+            alpha[i] = (char) (97 + i);
         }
 
         for (int j = 0; j < s.length(); ++j) {
@@ -25,6 +25,6 @@ public class Main_10809 {
 
         for (int q : list) {
             System.out.print(q + " ");
-    }
+        }
     }
 }

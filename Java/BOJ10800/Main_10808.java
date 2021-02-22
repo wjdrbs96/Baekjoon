@@ -16,7 +16,7 @@ public class Main_10808 {
         for (int j = 0; j < s.length(); ++j) {
             for (int k = 0; k < 26; ++k) {
                 if (s.charAt(j) == alpha[k]) {
-                    l[k]+=1;
+                    l[k] += 1;
                     break;
                 }
             }

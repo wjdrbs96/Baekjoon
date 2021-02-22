@@ -27,7 +27,7 @@ public class Main_4963 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        while(true) {
+        while (true) {
             a = input.nextInt();
             b = input.nextInt();
 

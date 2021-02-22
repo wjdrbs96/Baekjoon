@@ -8,6 +8,6 @@ public class Main_1236 {
 
         int N = input.nextInt();  // 세로
         int M = input.nextInt();  // 가로
-        
+
     }
 }

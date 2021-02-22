@@ -18,9 +18,8 @@ public class Main_8958 {
             for (int k = 0; k < list[j].length(); ++k) {
                 if (list[j].charAt(k) == 'O') {
                     count++;
-                    sum+=count;
-                }
-                else {
+                    sum += count;
+                } else {
                     count = 0;
                 }
             }

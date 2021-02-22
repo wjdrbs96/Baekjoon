@@ -30,8 +30,7 @@ public class Main_1439 {
 
         if (oneGroup >= zeroGroup) {
             System.out.println(zeroGroup);
-        }
-        else {
+        } else {
             System.out.println(oneGroup);
         }
     }

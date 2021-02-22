@@ -13,8 +13,7 @@ public class Main_10845_2 {
     public static int pop() {
         if (list.isEmpty()) {
             return -1;
-        }
-        else {
+        } else {
             return list.pollFirst();
         }
     }
@@ -26,17 +25,15 @@ public class Main_10845_2 {
     public static int empty() {
         if (list.isEmpty()) {
             return 1;
-        }
-        else {
+        } else {
             return 0;
         }
     }
 
     public static int front() {
-        if(list.isEmpty()) {
+        if (list.isEmpty()) {
             return -1;
-        }
-        else {
+        } else {
             return list.getFirst();
         }
     }
@@ -52,48 +49,30 @@ public class Main_10845_2 {
             if (s.contains("push")) {
                 a = input.nextInt();
                 push(a);
-            }
-
-            else if (s.equals("pop")) {
+            } else if (s.equals("pop")) {
                 if (size() == 0) {
                     System.out.println(-1);
-                }
-
-                else {
+                } else {
                     System.out.println(pop());
                 }
-            }
-
-            else if (s.equals("size")) {
+            } else if (s.equals("size")) {
                 System.out.println(size());
-            }
-
-            else if (s.equals("empty")) {
+            } else if (s.equals("empty")) {
                 if (size() == 0) {
                     System.out.println(1);
-                }
-
-                else {
+                } else {
                     System.out.println(0);
                 }
-            }
-
-            else if (s.equals("front")) {
-                if (size()== 0) {
-                    System.out.println(-1);
-                }
-
-                else {
-                    System.out.println(front());
-                }
-            }
-
-            else if (s.equals("back")) {
+            } else if (s.equals("front")) {
                 if (size() == 0) {
                     System.out.println(-1);
+                } else {
+                    System.out.println(front());
                 }
-
-                else {
+            } else if (s.equals("back")) {
+                if (size() == 0) {
+                    System.out.println(-1);
+                } else {
                     System.out.println(a);
                 }
             }

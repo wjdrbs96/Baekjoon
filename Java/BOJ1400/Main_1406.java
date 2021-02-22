@@ -21,23 +21,20 @@ public class Main_1406 {
                 String b = input.next();
                 stack1.push(b.charAt(0));
 
-            }
-            else {
+            } else {
                 if (a.equals("L")) {
                     if (stack1.isEmpty()) {
                         continue;
                     }
                     char c = stack1.pop();
                     stack2.push(c);
-                }
-                else if (a.equals("D")) {
+                } else if (a.equals("D")) {
                     if (stack2.isEmpty()) {
                         continue;
                     }
                     char c = stack2.pop();
                     stack1.push(c);
-                }
-                else if (a.equals("B")) {
+                } else if (a.equals("B")) {
                     if (stack1.isEmpty()) {
                         continue;
                     }

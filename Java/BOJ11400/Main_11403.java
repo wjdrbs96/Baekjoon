@@ -13,7 +13,7 @@ public class Main_11403 {
 
         for (int w = 1; w <= n; ++w) {
             if (visited[w] == 0 && adj[v][w] == 1) {
-                DFS(visited, w,true);
+                DFS(visited, w, true);
             }
         }
 

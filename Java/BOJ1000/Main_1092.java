@@ -56,18 +56,18 @@ import java.util.*;
 import java.util.*;
 
 public class Main_1092 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> craneList = new ArrayList<>(); // 크레인 중량
         ArrayList<Integer> boxList = new ArrayList<>(); // 박스 무게
         //1. 입력
         int n = sc.nextInt(); //크레인 갯수
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             int a = sc.nextInt();
             craneList.add(a);
         }
         int m = sc.nextInt();//박스 갯수
-        for(int i = 0; i < m; i++) {
+        for (int i = 0; i < m; i++) {
             int a = sc.nextInt();
             boxList.add(a);
         }
@@ -77,21 +77,20 @@ public class Main_1092 {
         Collections.sort(boxList, descending);
         int time = 0;//걸린 시간
         //3. 가장 무거운 박스의 무게 > 크레인 최대 중량일 경우
-        if(boxList.get(0) > craneList.get(0))
+        if (boxList.get(0) > craneList.get(0))
             System.out.println("-1");
             //4. 그 외의 경우, 그리디 알고리즘
-        else{
-            while(boxList.size() != 0){
+        else {
+            while (boxList.size() != 0) {
                 int idx = 0;
                 int tmp = 0;
-                while(idx < n){
-                    if(tmp == boxList.size())
+                while (idx < n) {
+                    if (tmp == boxList.size())
                         break;
-                    if(boxList.get(tmp) <= craneList.get(idx)){
+                    if (boxList.get(tmp) <= craneList.get(idx)) {
                         boxList.remove(tmp);
                         idx++;
-                    }
-                    else if(boxList.get(tmp) > craneList.get(idx)){
+                    } else if (boxList.get(tmp) > craneList.get(idx)) {
                         tmp++;
                     }
                 }
@@ -102,6 +101,7 @@ public class Main_1092 {
         sc.close();
     }
 }
+
 class Descending implements Comparator<Integer> {
     @Override
     public int compare(Integer o1, Integer o2) {

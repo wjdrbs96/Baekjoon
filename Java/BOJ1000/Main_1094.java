@@ -12,18 +12,17 @@ public class Main_1094 {
         int len = 64;
         int cnt = 0;
         int end = num;
-        while(true) {
-            if(num == 64) {
+        while (true) {
+            if (num == 64) {
                 cnt++;
                 break;
             }
             len = len / 2;
 
-            if(num >= len) {
+            if (num >= len) {
                 result += len;
                 cnt++;
-                if(end == result)
-                {
+                if (end == result) {
                     break;
                 }
                 num = num - len;

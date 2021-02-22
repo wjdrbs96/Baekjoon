@@ -1,4 +1,5 @@
 package Baekjoon.Java.BOJ1400;
+
 import java.util.HashSet;
 import java.util.Scanner;
 

@@ -21,8 +21,7 @@ public class Main_13713 {
             for (int j = sub1.length() - 1; j >= 0; --j) {
                 if (sub1.charAt(j) == sub2.charAt(j)) {
                     count++;
-                }
-                else {
+                } else {
                     break;
                 }
             }

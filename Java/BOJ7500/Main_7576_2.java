@@ -55,8 +55,7 @@ public class Main_7576_2 {
             }
 
             System.out.println(Collections.max(set) - 1);
-        }
-        else {
+        } else {
             System.out.println(-1);
         }
 

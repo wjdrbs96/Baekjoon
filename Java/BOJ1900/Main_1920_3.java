@@ -20,8 +20,7 @@ public class Main_1920_3 {
         for (int i = 0; i < M; ++i) {
             if (hm.get(input.nextInt()) == null) {
                 System.out.println(0);
-            }
-            else {
+            } else {
                 System.out.println(1);
             }
         }

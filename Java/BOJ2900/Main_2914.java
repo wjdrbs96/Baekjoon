@@ -13,7 +13,7 @@ public class Main_2914 {
 
         while (true) {
             if (Math.ceil(total / A) == i) {
-                System.out.println((int)total);
+                System.out.println((int) total);
                 break;
             }
             total++;

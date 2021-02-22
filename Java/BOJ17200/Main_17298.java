@@ -10,7 +10,7 @@ public class Main_17298 {
         int n = Integer.parseInt(br.readLine());
         int[] list = new int[n];
 
-        int[]answer = new int[n];
+        int[] answer = new int[n];
         String[] temp = br.readLine().split(" ");
 
         for (int i = 0; i < n; ++i) {
@@ -45,7 +45,6 @@ public class Main_17298 {
 
         bw.write("\n");
         bw.flush();
-
 
 
     }

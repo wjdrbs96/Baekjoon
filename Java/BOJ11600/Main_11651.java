@@ -3,7 +3,7 @@ package Baekjoon.Java.BOJ11600;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main_11651 implements Comparable{
+public class Main_11651 implements Comparable {
     int x;
     int y;
 
@@ -11,14 +11,13 @@ public class Main_11651 implements Comparable{
         this.x = x;
         this.y = y;
     }
+
     @Override
     public int compareTo(Object o) {
-        Main_11651 m = (Main_11651)o;
+        Main_11651 m = (Main_11651) o;
         if (this.y == m.y) {
             return this.x - m.x;
-        }
-
-        else {
+        } else {
             return this.y - m.y;
         }
     }
@@ -29,7 +28,7 @@ public class Main_11651 implements Comparable{
         Main_11651[] list = new Main_11651[n];
 
         for (int i = 0; i < n; ++i) {
-            list[i] = new Main_11651(input.nextInt(),input.nextInt());
+            list[i] = new Main_11651(input.nextInt(), input.nextInt());
         }
 
         Arrays.sort(list);

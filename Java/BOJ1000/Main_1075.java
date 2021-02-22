@@ -1,4 +1,5 @@
 package Baekjoon.Java.BOJ1000;
+
 import java.util.Scanner;
 
 public class Main_1075 {
@@ -9,18 +10,18 @@ public class Main_1075 {
         int F = input.nextInt();
         int a;
 
-       N = N.substring(0,N.length()-2);
-       N = N + "00";
+        N = N.substring(0, N.length() - 2);
+        N = N + "00";
 
-       a = Integer.parseInt(N);
+        a = Integer.parseInt(N);
 
-       while (true) {
-           if (a % F == 0) {
-               String b = String.valueOf(a);
-               System.out.println(b.substring(b.length()-2));
-               break;
-           }
-           a++;
-       }
+        while (true) {
+            if (a % F == 0) {
+                String b = String.valueOf(a);
+                System.out.println(b.substring(b.length() - 2));
+                break;
+            }
+            a++;
+        }
     }
 }

@@ -63,7 +63,7 @@ public class Main_1010 {
         for (int i = 0; i < num; i++) {
             int r = sc.nextInt();
             int n = sc.nextInt();
-            System.out.println(combination(r,n));
+            System.out.println(combination(r, n));
         }
     }
 
@@ -71,13 +71,13 @@ public class Main_1010 {
         BigInteger sum = new BigInteger("1");
         int temp = r;
 
-        while(r > 0) {
+        while (r > 0) {
             sum = sum.multiply(BigInteger.valueOf(n));
             --r;
             --n;
         }
 
-        while(temp > 0) {
+        while (temp > 0) {
             sum = sum.divide(BigInteger.valueOf(temp));
             --temp;
         }

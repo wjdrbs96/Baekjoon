@@ -24,7 +24,7 @@ public class Main_11724 {
         check = false;
 
         for (int w = 1; w <= size; ++w) {
-            if (!visit[w] &&  adj[v][w] == 1) {
+            if (!visit[w] && adj[v][w] == 1) {
                 dfs(w);
                 check = true;
             }

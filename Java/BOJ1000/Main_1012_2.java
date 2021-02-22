@@ -8,7 +8,7 @@ public class Main_1012_2 {
     static int N;
     static int M;
     static int[] dx = {1, -1, 0, 0};
-    static int[] dy = {0 , 0, 1, -1};
+    static int[] dy = {0, 0, 1, -1};
     static int count = 0;
 
     public static void edge(int start, int end) {

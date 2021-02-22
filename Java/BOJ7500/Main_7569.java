@@ -97,7 +97,7 @@ public class Main_7569 {
     }
 }
 
-class Coodi{
+class Coodi {
     int x;
     int y;
     int z;

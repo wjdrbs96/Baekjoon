@@ -50,8 +50,8 @@ public class Main_11728 {
         }*/
 
 
-      // 구글 풀이 입력과 출력을 다른걸 써야하니 그거에 대해 공부해봐야지
-        
+        // 구글 풀이 입력과 출력을 다른걸 써야하니 그거에 대해 공부해봐야지
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
@@ -63,15 +63,15 @@ public class Main_11728 {
         int M = Integer.parseInt(st.nextToken());
 
         st = new StringTokenizer(br.readLine());
-        while(st.hasMoreTokens())
+        while (st.hasMoreTokens())
             pq.offer(Integer.parseInt(st.nextToken()));
 
         st = new StringTokenizer(br.readLine());
-        while(st.hasMoreTokens())
+        while (st.hasMoreTokens())
             pq.offer(Integer.parseInt(st.nextToken()));
 
-        while(!pq.isEmpty())
-            bw.write(pq.poll()+" ");
+        while (!pq.isEmpty())
+            bw.write(pq.poll() + " ");
 
         bw.close();
     }

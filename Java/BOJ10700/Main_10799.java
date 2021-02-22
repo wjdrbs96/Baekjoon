@@ -14,13 +14,11 @@ public class Main_10799 {
         for (int i = 0; i < st.length(); ++i) {
             if (st.charAt(i) == '(') {
                 stack.add(st.charAt(i));
-            }
-            else {
+            } else {
                 stack.pop();
                 if (st.charAt(i - 1) == '(') {
                     sum += stack.size();
-                }
-                else {
+                } else {
                     sum++;
                 }
             }

@@ -12,8 +12,7 @@ public class Main_1152 {
         for (int i = 0; i < p.length; ++i) {
             if (p[i].equals("")) {
                 continue;
-            }
-            else {
+            } else {
                 count++;
             }
         }

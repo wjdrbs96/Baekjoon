@@ -19,9 +19,8 @@ public class Main_1032 {
             for (int k = 0; k < start.length(); ++k) {
                 if (start.charAt(k) == list[j].charAt(k)) {
                     continue;
-                }
-                else {
-                    start.replace(k,k+1, "?");
+                } else {
+                    start.replace(k, k + 1, "?");
                 }
             }
         }

@@ -48,8 +48,7 @@ public class Main_16562 {
             root[r].idx = r;
             if (root[r].cost == 0) {
                 root[r].cost = cost[i];
-            }
-            else {
+            } else {
                 root[r].cost = Math.min(root[r].cost, cost[i]);
             }
         }
@@ -61,8 +60,7 @@ public class Main_16562 {
         }
         if (k >= total) {
             System.out.println(total);
-        }
-        else {
+        } else {
             System.out.println("Oh no");
         }
 

@@ -90,7 +90,7 @@ public class Main_1991 {
         Tree root = new Tree(data[0], data[1], data[2]);   //  루트노드 따로 빼 놓기
 
         for (int i = 1; i < n; ++i) {
-            data = br.readLine().replaceAll(" ","").toCharArray();
+            data = br.readLine().replaceAll(" ", "").toCharArray();
             root.add(data[0], data[1], data[2]);
         }
 

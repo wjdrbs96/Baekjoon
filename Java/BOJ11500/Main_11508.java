@@ -8,8 +8,8 @@ public class Main_11508 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
-        int[] list = new int[n+1];
-        int[] list1 = new int[n+1];
+        int[] list = new int[n + 1];
+        int[] list1 = new int[n + 1];
 
         for (int j = 1; j <= n; ++j) {
             list[j] = input.nextInt();
@@ -26,7 +26,7 @@ public class Main_11508 {
             if (i % 3 == 0) {
                 continue;
             }
-            sum+=list1[i];
+            sum += list1[i];
 
         }
         System.out.println(sum);

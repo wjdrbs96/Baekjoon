@@ -11,7 +11,7 @@ public class Main_2711 {
         for (int i = 0; i < n; ++i) {
             int a = input.nextInt();
             String s = input.next();
-            String p =  s.substring(0, a - 1) + s.substring(a);
+            String p = s.substring(0, a - 1) + s.substring(a);
             System.out.println(p);
 
         }

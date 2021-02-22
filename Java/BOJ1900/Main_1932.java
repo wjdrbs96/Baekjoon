@@ -16,12 +16,10 @@ public class Main_1932 {
                 dp[i][j] = input.nextInt();
 
                 if (j == 0) {
-                    dp[i][j] += dp[i- 1][j];
-                }
-                else if (j == i) {
+                    dp[i][j] += dp[i - 1][j];
+                } else if (j == i) {
                     dp[i][j] += dp[i - 1][j - 1];
-                }
-                else {
+                } else {
                     dp[i][j] += Math.max(dp[i - 1][j - 1], dp[i - 1][j]);
                 }
 
@@ -29,7 +27,6 @@ public class Main_1932 {
             }
         }
         System.out.println(max);
-
 
 
     }

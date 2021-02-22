@@ -17,29 +17,23 @@ public class Main_9012 {
             for (int j = 0; j < s.length(); ++j) {
                 if (s.charAt(j) == '(') {
                     stack.push(s.charAt(j));
-                }
-
-                else if (s.charAt(j) == ')') {
+                } else if (s.charAt(j) == ')') {
                     if (!stack.isEmpty()) {
                         stack.pop();
-                    }
-
-                    else {
+                    } else {
                         b = false;
                         break;
                     }
                 }
             }
 
-            if(!stack.isEmpty()) {
+            if (!stack.isEmpty()) {
                 b = false;
             }
 
-            if(b) {
+            if (b) {
                 System.out.println("YES");
-            }
-
-            else {
+            } else {
                 System.out.println("NO");
             }
 

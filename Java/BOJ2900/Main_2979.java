@@ -42,8 +42,7 @@ public class Main_2979 {
         for (int i = 0; i < list.size(); ++i) {
             if (!hm.containsKey(list.get(i))) {
                 hm.put(list.get(i), 1);
-            }
-            else {
+            } else {
                 hm.put(list.get(i), hm.get(list.get(i)) + 1);
             }
 
@@ -54,11 +53,9 @@ public class Main_2979 {
         for (int i = 0; i < list2.size(); ++i) {
             if (hm.get(list2.get(i)) == 1) {
                 sum += hm.get(list2.get(i)) * A;
-            }
-            else if (hm.get(list2.get(i)) == 2) {
+            } else if (hm.get(list2.get(i)) == 2) {
                 sum += hm.get(list2.get(i)) * B;
-            }
-            else if (hm.get(list2.get(i)) == 3) {
+            } else if (hm.get(list2.get(i)) == 3) {
                 sum += hm.get(list2.get(i)) * C;
             }
         }

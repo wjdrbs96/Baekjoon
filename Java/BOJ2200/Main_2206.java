@@ -33,8 +33,7 @@ public class Main_2206 {
 
         if (ans == Integer.MAX_VALUE) {
             System.out.println(-1);
-        }
-        else {
+        } else {
             System.out.println(ans);
         }
     }

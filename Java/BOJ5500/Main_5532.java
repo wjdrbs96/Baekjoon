@@ -22,7 +22,7 @@ public class Main_5532 {
             } else {
                 System.out.println(L - q - 1);
             }
-        } else if (p > q){
+        } else if (p > q) {
             if (B % D == 0) {
                 System.out.println(L - p);
             } else {
@@ -31,7 +31,7 @@ public class Main_5532 {
         } else {
             if (B % D != 0 && A % C != 0) {
                 System.out.println(L - p - 1);
-            } else if (B % D == 0 && A % C == 0){
+            } else if (B % D == 0 && A % C == 0) {
                 System.out.println(L - p);
             } else {
                 System.out.println(L - p - 1);

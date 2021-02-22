@@ -12,7 +12,7 @@ public class Main_2164 {
         int n = input.nextInt();
 
         for (int i = 0; i < n; ++i) {
-            queue.addLast(i+1);
+            queue.addLast(i + 1);
         }
 
         while (queue.size() > 1) {
@@ -24,7 +24,6 @@ public class Main_2164 {
         }
 
         System.out.println(queue.pollFirst());
-
 
 
     }

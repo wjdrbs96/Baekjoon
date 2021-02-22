@@ -25,7 +25,7 @@ public class Main_2606 {
         int count = 0;
         q.offer(v);
         visit[v] = true;
-        while(!q.isEmpty()) {
+        while (!q.isEmpty()) {
             v = q.poll();
             for (int w = 1; w < size + 1; ++w) {
                 if (adj[v][w] == 1 && !visit[w]) {

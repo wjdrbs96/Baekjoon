@@ -15,13 +15,11 @@ public class Main_2161 {
             list.add(j);
         }
 
-        while(true) {
+        while (true) {
             if (i % 2 == 1) {
                 System.out.print(list.get(0) + " ");
                 list.remove(0);
-            }
-
-            else {
+            } else {
                 list.add(list.get(0));
                 list.remove(0);
             }

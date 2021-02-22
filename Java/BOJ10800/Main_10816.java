@@ -12,12 +12,12 @@ public class Main_10816 {
         // 입력 값에 음수가 입기 때문에 배열의 크기를 2배로 늘려서 함
         int[] card = new int[20000001];
         for (int i = 0; i < N; ++i) {
-            ++card[sc.nextInt()+10000000] ;
+            ++card[sc.nextInt() + 10000000];
         }
         int M = sc.nextInt();
 
         for (int i = 0; i < M; ++i) {
-            sb.append(card[sc.nextInt()+10000000]+" ");
+            sb.append(card[sc.nextInt() + 10000000] + " ");
         }
         System.out.println(sb.toString());
     }

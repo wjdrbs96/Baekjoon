@@ -9,7 +9,8 @@ public class Main_1904 {
         int n = input.nextInt();
         int[] list = new int[1100000];
 
-        list[1] = 1; list[2] = 2;
+        list[1] = 1;
+        list[2] = 2;
         for (int i = 3; i < 1100000; ++i) {
             list[i] = (list[i - 1] + list[i - 2]) % 15746;
         }

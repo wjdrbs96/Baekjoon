@@ -11,7 +11,7 @@ public class Main_2292 {
         int count = 1;
         int addNum = 6;
 
-        while(true) {
+        while (true) {
             if (n <= count) {
                 break;
             }

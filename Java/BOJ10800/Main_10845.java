@@ -17,48 +17,30 @@ public class Main_10845 {
             if (s.contains("push")) {
                 a = input.nextInt();
                 queue.offer(a);
-            }
-
-            else if (s.equals("pop")) {
+            } else if (s.equals("pop")) {
                 if (queue.size() == 0) {
                     System.out.println(-1);
-                }
-
-                else {
+                } else {
                     System.out.println(queue.poll());
                 }
-            }
-
-            else if (s.equals("size")) {
+            } else if (s.equals("size")) {
                 System.out.println(queue.size());
-            }
-
-            else if (s.equals("empty")) {
+            } else if (s.equals("empty")) {
                 if (queue.size() == 0) {
                     System.out.println(1);
-                }
-
-                else {
+                } else {
                     System.out.println(0);
                 }
-            }
-
-            else if (s.equals("front")) {
+            } else if (s.equals("front")) {
                 if (queue.size() == 0) {
                     System.out.println(-1);
-                }
-
-                else {
+                } else {
                     System.out.println(queue.peek());
                 }
-            }
-
-            else if (s.equals("back")) {
+            } else if (s.equals("back")) {
                 if (queue.size() == 0) {
                     System.out.println(-1);
-                }
-
-                else {
+                } else {
                     System.out.println(a);
                 }
             }

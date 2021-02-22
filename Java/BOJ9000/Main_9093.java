@@ -22,8 +22,7 @@ public class Main_9093 {
                         System.out.print(stack.pop());
                     }
                     System.out.print(" ");
-                }
-                else {
+                } else {
                     stack.push(name.charAt(j));
                 }
             }

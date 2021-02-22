@@ -18,16 +18,14 @@ public class Main_17413 {
                     System.out.print(stack.pop());
                 }
                 System.out.print(" ");
-            }
-            else if (name.charAt(i) == '<') {
+            } else if (name.charAt(i) == '<') {
                 visit = true;
                 while (!stack.isEmpty()) {
                     System.out.print(stack.pop());
                 }
 
                 System.out.print('<');
-            }
-            else if (name.charAt(i) == '>') {
+            } else if (name.charAt(i) == '>') {
                 StringBuilder sb = new StringBuilder();
                 while (!stack.isEmpty()) {
                     sb.append(stack.pop());
@@ -36,8 +34,7 @@ public class Main_17413 {
                 System.out.print(sb.toString());
                 System.out.print('>');
                 visit = false;
-            }
-            else {
+            } else {
                 if (visit == false) {
                     stack.push(name.charAt(i));
                 } else {

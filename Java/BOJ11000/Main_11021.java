@@ -13,7 +13,7 @@ public class Main_11021 {
             int b = input.nextInt();
 
             System.out.print("Case #" + i + ":" + " ");
-            System.out.println(a+b);
+            System.out.println(a + b);
 
         }
     }

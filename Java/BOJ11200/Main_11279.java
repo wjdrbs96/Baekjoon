@@ -17,12 +17,10 @@ public class Main_11279 {
             if (a == 0) {
                 if (!priorityQueue.isEmpty()) {
                     System.out.println(priorityQueue.poll());
-                }
-                else {
+                } else {
                     System.out.println(0);
                 }
-            }
-            else {
+            } else {
                 priorityQueue.offer(a);
             }
         }

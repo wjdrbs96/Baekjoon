@@ -26,12 +26,12 @@ public class Main_9633 {
             count++;    // 1행 1열 ~ 1행 N열 까지 놓을 때 가능한 경우의 수 전부 count
         } else {
             for (int i = 1; i <= N; ++i) {
-            col[row + 1] = i;   // col[행] = 열 으로 생각 (ex : col[2] = 1 이라면 2행 1열 이라는 뜻)
-            if (isPossible(col, row + 1)) {
-                dfs(col, row + 1);
+                col[row + 1] = i;   // col[행] = 열 으로 생각 (ex : col[2] = 1 이라면 2행 1열 이라는 뜻)
+                if (isPossible(col, row + 1)) {
+                    dfs(col, row + 1);
+                }
             }
         }
-    }
 
     }
 

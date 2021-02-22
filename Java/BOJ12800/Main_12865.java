@@ -16,8 +16,7 @@ public class Main_12865 {
             for (int j = 1; j < K + 1; ++j) {
                 if (j < W) {
                     dp[i][j] = dp[i - 1][j];
-                }
-                else {
+                } else {
                     dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - W] + V);
                 }
             }

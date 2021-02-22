@@ -13,8 +13,7 @@ public class Main_1302_2 {
             String a = input.next();
             if (hm.get(a) == null) {
                 hm.put(a, 1);
-            }
-            else {
+            } else {
                 hm.put(a, hm.get(a) + 1);
             }
         }

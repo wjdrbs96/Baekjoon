@@ -15,7 +15,7 @@ public class Main_14226 {
         Scanner input = new Scanner(System.in);
 
         S = input.nextInt();
-        adj= new int[S + 1][S + 1];  // 화면이모티콘/클립보드 저장
+        adj = new int[S + 1][S + 1];  // 화면이모티콘/클립보드 저장
 
         // 배열을 전부 -1로 초기화 (방문하지 않은 곳이면 -1)
         for (int i = 0; i < S + 1; ++i) {

@@ -15,8 +15,7 @@ public class Main_2592 {
             sum += a;
             if (!hm.containsKey(a)) {
                 hm.put(a, 1);
-            }
-            else {
+            } else {
                 hm.put(a, hm.get(a) + 1);
             }
         }

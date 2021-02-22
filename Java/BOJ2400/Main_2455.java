@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main_2455 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int[][] list= new int[4][2];
+        int[][] list = new int[4][2];
         List<Integer> save = new ArrayList<>();
 
         for (int i = 0; i < 4; ++i) {
@@ -24,6 +24,6 @@ public class Main_2455 {
         }
 
         Collections.sort(save);
-        System.out.println(save.get(save.size()-1));
+        System.out.println(save.get(save.size() - 1));
     }
 }

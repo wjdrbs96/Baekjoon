@@ -10,10 +10,10 @@ public class Main_10953 {
         input.nextLine();
         for (int i = 0; i < n; ++i) {
             String s = input.nextLine();
-            String[] p = s .split(",");
+            String[] p = s.split(",");
             int a = Integer.parseInt(p[0]);
             int b = Integer.parseInt(p[1]);
-            System.out.println(a+b);
+            System.out.println(a + b);
         }
     }
 }

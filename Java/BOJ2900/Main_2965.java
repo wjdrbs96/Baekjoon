@@ -14,10 +14,9 @@ public class Main_2965 {
         int b = list[2] - list[1];
 
         if (a < b) {
-            System.out.println(b-1);
-        }
-        else {
-            System.out.println(a-1);
+            System.out.println(b - 1);
+        } else {
+            System.out.println(a - 1);
         }
     }
 }

@@ -13,13 +13,11 @@ public class Main_2884 {
             if (H == 1) {
                 System.out.print(H - 1 + " ");
                 System.out.println(60 + M - 45);
-            }
-            else if (H == 0) {
+            } else if (H == 0) {
                 System.out.print(23 + " ");
                 System.out.println(60 + M - 45);
 
-            }
-            else {
+            } else {
                 System.out.print(H - 1 + " ");
                 System.out.println(60 + M - 45);
             }

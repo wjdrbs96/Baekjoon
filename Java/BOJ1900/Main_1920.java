@@ -19,8 +19,7 @@ public class Main_1920 {
         for (int i = 0; i < M; ++i) {
             if (Arrays.binarySearch(list, input.nextInt()) >= 0) {
                 System.out.println(1);
-            }
-            else {
+            } else {
                 System.out.println(0);
             }
 

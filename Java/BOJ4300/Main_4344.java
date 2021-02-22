@@ -19,7 +19,7 @@ public class Main_4344 {
                 listScore[j] = input.nextInt();
                 sum += listScore[j];
             }
-            avg = (double)sum / N;
+            avg = (double) sum / N;
             for (int k = 0; k < N; ++k) {
                 if (listScore[k] > avg) {
                     count++;

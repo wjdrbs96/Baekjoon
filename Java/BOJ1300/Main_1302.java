@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main_1302 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        HashMap<String,Integer> hm = new HashMap<>();
+        HashMap<String, Integer> hm = new HashMap<>();
 
 
         int n = input.nextInt();
@@ -18,15 +18,13 @@ public class Main_1302 {
 
             if (!hm.containsKey(book)) {
                 hm.put(book, 1);
-            }
-
-            else {
+            } else {
                 hm.put(book, hm.get(book) + 1);
             }
         }
 
         int max = 0;
-        for(String a : hm.keySet()){
+        for (String a : hm.keySet()) {
             max = Math.max(max, hm.get(a));
         }
 

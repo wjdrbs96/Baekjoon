@@ -6,7 +6,7 @@ public class Main_10952 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        while(true) {
+        while (true) {
             int a = input.nextInt();
             int b = input.nextInt();
 

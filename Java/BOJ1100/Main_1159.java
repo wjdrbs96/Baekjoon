@@ -15,20 +15,18 @@ public class Main_1159 {
 
         for (int i = 0; i < n; ++i) {
             list[i] = input.next().charAt(0);
-            alpa[list[i]-97]++;
+            alpa[list[i] - 97]++;
         }
 
         for (int j = 0; j < alpa.length; ++j) {
             if (alpa[j] >= 5) {
-                result += (char)(97 + j);
+                result += (char) (97 + j);
             }
         }
 
         if (result.equals("")) {
             System.out.println("PREDAJA");
-        }
-
-        else {
+        } else {
             System.out.println(result);
         }
 

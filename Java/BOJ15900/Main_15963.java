@@ -11,8 +11,7 @@ public class Main_15963 {
 
         if (N.equals(M)) {
             System.out.println(1);
-        }
-        else {
+        } else {
             System.out.println(0);
         }
     }

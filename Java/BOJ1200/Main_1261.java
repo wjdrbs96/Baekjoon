@@ -53,8 +53,7 @@ public class Main_1261 {
                     if (adj[nx][ny] == 1) {
                         adj[nx][ny] = adj[x][y] + 1;
                         deque.addFirst(new Miro(nx, ny));
-                    }
-                    else {
+                    } else {
                         adj[nx][ny] = adj[x][y];
                         deque.addLast(new Miro(nx, ny));
                     }

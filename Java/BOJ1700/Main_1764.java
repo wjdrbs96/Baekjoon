@@ -37,13 +37,13 @@ public class Main_1764 {
             }
         }
 
-            Collections.sort(answer);
+        Collections.sort(answer);
 
-            System.out.println(answer.size());
-            for (String name : answer) {
-                System.out.println(name);
-            }
+        System.out.println(answer.size());
+        for (String name : answer) {
+            System.out.println(name);
         }
+    }
 
 }
 

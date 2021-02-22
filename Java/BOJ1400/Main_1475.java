@@ -12,17 +12,16 @@ public class Main_1475 {
 
         for (int i = 0; i < s.length(); ++i) {
             for (int j = 0; j < 10; ++j) {
-                if ((48 + j) == (int)(s.charAt(i))) {
+                if ((48 + j) == (int) (s.charAt(i))) {
                     if (j == 6 || j == 9) {
-                        list[6]+=0.5;
-                    }
-                    else {
-                        list[j]+=1;
+                        list[6] += 0.5;
+                    } else {
+                        list[j] += 1;
                     }
                 }
             }
         }
         Arrays.sort(list);
-        System.out.println(Math.round(list[list.length-1]));
+        System.out.println(Math.round(list[list.length - 1]));
     }
 }

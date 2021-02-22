@@ -22,9 +22,9 @@ public class Main_1018 {
             String str = in.nextLine().trim();
             for (int j = 0; j < M; j++) {
                 if (str.charAt(j) == 'W') {
-                    arr[i][j] = true;		// W일 때는 true
+                    arr[i][j] = true;        // W일 때는 true
                 } else {
-                    arr[i][j] = false;		// B일 때는 false
+                    arr[i][j] = false;        // B일 때는 false
                 }
             }
         }
@@ -45,7 +45,7 @@ public class Main_1018 {
         int end_y = y + 8;
         int count = 0;
 
-        boolean TF = arr[x][y];	// 첫 번째 칸의 색
+        boolean TF = arr[x][y];    // 첫 번째 칸의 색
 
         for (int i = x; i < end_x; i++) {
             for (int j = y; j < end_y; j++) {

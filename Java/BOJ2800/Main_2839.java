@@ -9,7 +9,7 @@ public class Main_2839 {
 
         int n = input.nextInt();
 
-        while(true) {
+        while (true) {
             if (n % 5 == 0) {
                 System.out.println(n / 5 + count);
                 break;

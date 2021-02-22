@@ -19,8 +19,7 @@ public class Main_1920_2 {
             int num = input.nextInt();
             if (map.get(num) != null) {
                 System.out.println(1);
-            }
-            else {
+            } else {
                 System.out.println(0);
             }
         }

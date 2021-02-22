@@ -23,7 +23,8 @@ public class Main_2309_2 {
         Arrays.sort(list);
 
         int i, j = 0;
-        out:for (i = 1; i < list.length - 1; ++i) {
+        out:
+        for (i = 1; i < list.length - 1; ++i) {
             for (j = i + 1; j < list.length; ++j) {
                 int sum = total;
                 sum -= (list[i] + list[j]);

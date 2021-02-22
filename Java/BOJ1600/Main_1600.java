@@ -8,7 +8,7 @@ public class Main_1600 {
     static int k, W, H;
     static int[] dx = {1, -1, 0, 0};
     static int[] dy = {0, 0, 1, -1};
-    static int[] dx1 = {2, 2, 1, 1, -2, -2 ,-1, -1};
+    static int[] dx1 = {2, 2, 1, 1, -2, -2, -1, -1};
     static int[] dy1 = {1, -1, 2, -2, 1, -1, 2, -2};
 
     public static void main(String[] args) {
@@ -27,7 +27,6 @@ public class Main_1600 {
                 adj[i][j] = input.nextInt();
             }
         }
-
 
 
     }

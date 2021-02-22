@@ -8,6 +8,7 @@ import java.util.StringTokenizer;
 public class Main_3085 {
     static int N, result = -1;
     static char[][] list;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

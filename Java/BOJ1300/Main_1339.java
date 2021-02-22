@@ -23,8 +23,7 @@ public class Main_1339 {
         for (int i = 0; i < sb.length(); ++i) {
             if (hm.get(sb.charAt(i)) == null) {
                 hm.put(sb.charAt(i), 1);
-            }
-            else {
+            } else {
                 hm.put(sb.charAt(i), hm.get(sb.charAt(i)) + 1);
             }
         }

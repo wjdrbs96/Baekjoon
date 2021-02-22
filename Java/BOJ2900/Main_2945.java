@@ -31,6 +31,5 @@ public class Main_2945 {
         System.out.println(a);
 
 
-
     }
 }

@@ -12,17 +12,13 @@ public class Main_2908 {
         q.reverse();
 
         for (int i = 0; i < p.length(); ++i) {
-            if ((int)(p.charAt(i)) < (int)(q.charAt(i))) {
+            if ((int) (p.charAt(i)) < (int) (q.charAt(i))) {
                 System.out.println(q.toString());
                 break;
-            }
-
-            else if ((int)(p.charAt(i)) > (int)(q.charAt(i))) {
+            } else if ((int) (p.charAt(i)) > (int) (q.charAt(i))) {
                 System.out.println(p.toString());
                 break;
-            }
-
-            else {
+            } else {
                 continue;
             }
         }

@@ -23,7 +23,8 @@ public class Main_7562 {
         Set<Integer> set = new HashSet<>();
         queue.offer(start);
 
-        out:while (!queue.isEmpty()) {
+        out:
+        while (!queue.isEmpty()) {
             Knight k = queue.poll();
             for (int i = 0; i < 8; ++i) {
                 int nx = k.x + dx[i];

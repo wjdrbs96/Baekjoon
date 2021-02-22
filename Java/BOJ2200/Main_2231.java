@@ -10,7 +10,7 @@ public class Main_2231 {
 
         int i = 1;
         int value = 0;
-        boolean check  = false;
+        boolean check = false;
         while (i < N) {
             value = divideValue(i);
             if (value == N) {
@@ -21,8 +21,7 @@ public class Main_2231 {
         }
         if (check) {
             System.out.println(i);
-        }
-        else {
+        } else {
             System.out.println(0);
         }
     }

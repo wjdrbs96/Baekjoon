@@ -14,7 +14,7 @@ public class Main_1697 {
         q.offer(N);
         visit[N] = 1;
 
-        while(!q.isEmpty()) {
+        while (!q.isEmpty()) {
             N = q.poll();
 
             if (N == K) break;

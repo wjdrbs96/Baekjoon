@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Main_1120 {
     static List<Integer> listCount = new ArrayList<>();
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

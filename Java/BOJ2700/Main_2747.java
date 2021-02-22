@@ -13,7 +13,7 @@ public class Main_2747 {
         list[1] = 1;
 
         for (int i = 2; i <= n; ++i) {
-            list[i] = list[i-2] + list[i-1];
+            list[i] = list[i - 2] + list[i - 1];
         }
 
         System.out.println(list[n]);

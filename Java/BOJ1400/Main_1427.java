@@ -16,7 +16,7 @@ public class Main_1427 {
 
         Arrays.sort(list);
 
-        for (int i = list.length-1; i >=0; --i) {
+        for (int i = list.length - 1; i >= 0; --i) {
             System.out.print((list[i]));
         }
     }

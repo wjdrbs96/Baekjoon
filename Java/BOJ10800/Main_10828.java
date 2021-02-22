@@ -17,36 +17,25 @@ public class Main_10828 {
             if (list[i].contains("push")) {
                 int a = input.nextInt();
                 stack.push(a);
-            }
-
-            else if (list[i].equals("pop")) {
+            } else if (list[i].equals("pop")) {
                 if (stack.size() == 0) {
                     System.out.println(-1);
-                }
-                else {
+                } else {
                     System.out.println(stack.pop());
                 }
-            }
-
-            else if (list[i].equals("top")) {
+            } else if (list[i].equals("top")) {
                 if (stack.size() == 0) {
                     System.out.println(-1);
-                }
-                else {
+                } else {
                     System.out.println(stack.peek());
                 }
-            }
-
-            else if (list[i].equals("empty")) {
+            } else if (list[i].equals("empty")) {
                 if (stack.size() == 0) {
                     System.out.println(1);
-                }
-                else {
+                } else {
                     System.out.println(0);
                 }
-            }
-
-            else if (list[i].equals("size")) {
+            } else if (list[i].equals("size")) {
                 System.out.println(stack.size());
             }
         }

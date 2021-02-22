@@ -18,8 +18,6 @@ public class Main_2579 {
         dp[0] = ary[0];
         int max = 0;
 
-        
-
 
     }
 }

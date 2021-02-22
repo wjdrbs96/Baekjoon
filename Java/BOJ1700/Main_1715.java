@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 
 public class Main_1715 {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         PriorityQueue<Long> pq = new PriorityQueue<>();
@@ -30,7 +30,7 @@ public class Main_1715 {
             sum += b;
 
             if (!pq.isEmpty()) {
-                pq.add(a+b);
+                pq.add(a + b);
             }
         }
 

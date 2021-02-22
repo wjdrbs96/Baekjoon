@@ -104,10 +104,11 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main_1325 {
-    static int N,M;
+    static int N, M;
     static boolean visit[];
     static int arr[];
     static ArrayList<Integer> arrList[];
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -144,6 +145,7 @@ public class Main_1325 {
         }
         System.out.println(sb.toString());
     }
+
     public static void bfs(int index) {
         Queue<Integer> queue = new LinkedList<Integer>();
         queue.add(index);
@@ -153,7 +155,7 @@ public class Main_1325 {
             int val = queue.poll();
             for (int i = 0; i < arrList[val].size(); i++) {
                 int v = arrList[val].get(i);
-                if (!visit[v]){
+                if (!visit[v]) {
                     visit[v] = true;
                     arr[v]++;
                     queue.add(v);
@@ -161,6 +163,7 @@ public class Main_1325 {
             }
         }
     }
+
     public static void dfs(int index) {
         visit[index] = true;
 

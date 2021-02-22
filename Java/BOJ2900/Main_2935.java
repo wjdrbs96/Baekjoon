@@ -13,8 +13,7 @@ public class Main_2935 {
 
         if (ch.equals("+")) {
             System.out.println(A.add(B));
-        }
-        else if (ch.equals("*")) {
+        } else if (ch.equals("*")) {
             System.out.println(A.multiply(B));
         }
     }

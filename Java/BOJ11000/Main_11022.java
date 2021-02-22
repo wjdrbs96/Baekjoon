@@ -12,7 +12,7 @@ public class Main_11022 {
             int a = input.nextInt();
             int b = input.nextInt();
 
-            System.out.println("Case #" + i + ": " + a + " + " + b + " = " + (int)(a + b));
+            System.out.println("Case #" + i + ": " + a + " + " + b + " = " + (int) (a + b));
         }
     }
 }
