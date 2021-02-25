@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+// BFS 이용
 public class Main_1463 {
     static int n;
     static boolean[] check;
