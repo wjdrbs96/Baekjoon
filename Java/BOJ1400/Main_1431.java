@@ -20,7 +20,7 @@ public class Main_1431 {
             @Override
             public int compare(String o1, String o2) {
                 if (o1.length() < o2.length()) {
-                    return -1;
+                    return -1;  // 오름차순 정렬
                 }
                 else if (o1.length() == o2.length()) {
                     int sumO1 = 0;
@@ -34,14 +34,16 @@ public class Main_1431 {
                         }
                     }
 
-                    // 숫자가 같으면
+                    // 숫자가 같으면 사전순 정렬
                     if (sumO1 == sumO2) {
                         return o1.compareTo(o2);
                     }
 
+                    //
                     return Integer.compare(sumO1, sumO2);
                 }
 
+                // o1.length > o2.length 라면 그대로 유지
                 return 1;
             }
         });
