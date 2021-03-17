@@ -5,53 +5,28 @@ import java.util.*;
 public class Main_1339 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        Map<Character, Integer> hm = new HashMap<>();
 
         int n = input.nextInt();
 
-        List<String> stringList = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
-
+        List<String> strings = new ArrayList<>();
         for (int i = 0; i < n; ++i) {
-            stringList.add(input.next());
+            strings.add(input.next());
         }
 
-        stringList.forEach(sb::append);
-
-        SortedMap<Character, Integer> hm = new TreeMap<>();
-
-
-        for (int i = 0; i < sb.length(); ++i) {
-            if (hm.get(sb.charAt(i)) == null) {
-                hm.put(sb.charAt(i), 1);
-            } else {
-                hm.put(sb.charAt(i), hm.get(sb.charAt(i)) + 1);
+        // 길이가 긴게 앞으로 정렬
+        strings.sort(new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o2.length() - o1.length();
             }
+        });
+
+        for (int i = 0; i < strings.size(); ++i) {
+            String word = strings.get(i);
+
         }
 
-        int value = 10 - hm.size();  // size 가 4라면 6 부터  6, 7, 8, 9
-
-        Map<Character, Integer> valueMap = new HashMap<>();
-
-        for (Character ch : hm.keySet()) {
-            valueMap.putIfAbsent(ch, value);
-            value++;
-        }
-
-        valueMap.values().forEach(s -> System.out.println(s));
-
-        int sum = 0;
-        for (int i = 0; i < stringList.size(); ++i) {
-            String s = stringList.get(i);
-            StringBuilder alphaBuilder = new StringBuilder();
-            for (int j = 0; j < s.length(); ++j) {
-                alphaBuilder.append(String.valueOf(valueMap.get(s.charAt(j))));
-            }
-            System.out.println(alphaBuilder.toString());
-            sum += Integer.parseInt(alphaBuilder.toString());
-        }
-
-        System.out.println(sum);
-
-
+        input.close();
     }
 }
