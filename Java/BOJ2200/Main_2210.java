@@ -4,9 +4,6 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-/**
- * created by jg 2021/03/21
- */
 public class Main_2210 {
     private static int adj[][] = new int[6][6];
     private static Set<String> set = new HashSet<>();
