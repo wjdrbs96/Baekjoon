@@ -35,12 +35,13 @@ public class Main_10819 {
             for (int i = 0; i < list.length - 1; ++i) {
                 sum += Math.abs(list2[i + 1] - list2[i]);
             }
-
             max = Math.max(max, sum);
             sum = 0;
             return;
         }
 
+        // 순열 이면 i = 0, 조합 이면 i = start
+        // depth 는 뽑은 개수
         for (int i = 0; i < N; ++i) {
             if (!visit[i]) {
                 visit[i] = true;
