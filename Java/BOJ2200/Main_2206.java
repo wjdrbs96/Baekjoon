@@ -1,90 +1,85 @@
 package Baekjoon.Java.BOJ2200;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
+/**
+ * created by jg 2021/04/19
+ */
 public class Main_2206 {
-    static int N, M, ans;
-    static int[][] adj;
-    static boolean[][] visit;
-    static int[] dx = {1, -1, 0, 0};
-    static int[] dy = {0, 0, 1, -1};
-    static int breakCount = 1;   // 벽 부수기 1회 가능
+    private static int N, M;
+    private static int[][] adj;
+    private static boolean[][] visit;
+    private static int count = 0;
+    private static int[] nx = {1, -1, 0, 0};
+    private static int[] ny = {0, 0, 1, -1};
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        N = input.nextInt();
-        M = input.nextInt();
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
 
         adj = new int[N + 1][M + 1];
         visit = new boolean[N + 1][M + 1];
 
         for (int i = 1; i < N + 1; ++i) {
-            String number = input.next();
+            String s = br.readLine();
             for (int j = 1; j < M + 1; ++j) {
-                adj[i][j] = number.charAt(j - 1) - 48;
+                adj[i][j] = s.charAt(j - 1) - '0';
             }
         }
 
-        ans = Integer.MAX_VALUE;
-        bfs(1, 1);
-
-        if (ans == Integer.MAX_VALUE) {
-            System.out.println(-1);
-        } else {
-            System.out.println(ans);
-        }
+        bfs(new Location(0, 0));
     }
 
-    static void bfs(int a, int b) {
-        visit[a][b] = true;
+    private static void bfs(Location location) {
+        visit[location.x][location.y] = true;
         Queue<Location> queue = new LinkedList<>();
-        queue.offer(new Location(a, b, 1, 0));
+        queue.add(location);
 
         while (!queue.isEmpty()) {
-            Location poll = queue.poll();
+            Location l = queue.poll();
 
-            if (poll.x == N && poll.y == M) {
-                ans = poll.dis;
+            if (l.x == N && l.y == M) {
+                if (count == 0) {
+                    System.out.println(-1);
+                } else {
+                    System.out.println(count);
+                }
                 break;
             }
 
             for (int i = 0; i < 4; ++i) {
-                int nx = poll.x + dx[i];
-                int ny = poll.y + dy[i];
+                int ax = nx[i] + l.x;
+                int ay = ny[i] + l.y;
 
-                if (nx > 0 && nx <= N && ny > 0 && ny <= M) {
-                    if (!visit[nx][nx] && adj[nx][ny] == 0) {
-                        queue.offer(new Location(nx, ny, poll.dis + 1, 0));
-                        visit[nx][ny] = true;
-                    }
-                    // 벽일 때 한번 부수기
-                    else {
-                        if (poll.drill == 0) {
-                            adj[nx][ny] = 0;
-                            queue.offer(new Location(nx, ny, poll.dis + 1, 1));
-                            visit[nx][ny] = true;
-                        }
+                if (ax > 0 && ax < N + 1 && ay > 0 && ay < M + 1) {
+                    if (adj[ax][ay] == 0 && !visit[ax][ay]) {
+                        queue.add(new Location(ax, ay));
+                    } else if (adj[ax][ay] == 1 && !visit[ax][ay]) {
+
                     }
                 }
             }
         }
     }
-}
 
+}
 
 class Location {
     int x;
     int y;
-    int dis;
-    int drill;
 
-    public Location(int x, int y, int dis, int drill) {
+    public Location(int x, int y) {
         this.x = x;
         this.y = y;
-        this.dis = dis;
-        this.drill = drill;
     }
 }
