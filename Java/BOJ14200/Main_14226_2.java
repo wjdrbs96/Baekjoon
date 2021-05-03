@@ -48,7 +48,6 @@ public class Main_14226_2 {
 
             // 1번
             queue.add(new Emoticon(emo.monitorCount, emo.monitorCount, emo.count + 1));
-
         }
     }
 }
