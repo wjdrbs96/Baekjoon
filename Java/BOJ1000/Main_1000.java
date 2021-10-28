@@ -1,6 +1,5 @@
 package Baekjoon.Java.BOJ1000;
 
-
 import java.util.Scanner;
 
 public class Main_1000 {

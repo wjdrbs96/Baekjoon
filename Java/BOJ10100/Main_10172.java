@@ -1,7 +1,6 @@
 package Baekjoon.Java.BOJ10100;
 
 public class Main_10172 {
-
     public static void main(String[] args) {
         System.out.println("|\\_/|");
         System.out.println("|q p|   /}");

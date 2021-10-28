@@ -13,8 +13,8 @@ public class Main_10952 {
             if (a == 0 && b == 0) {
                 break;
             }
-            System.out.println(a + b);
 
+            System.out.println(a + b);
         }
     }
 }
