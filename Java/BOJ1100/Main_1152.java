@@ -8,11 +8,10 @@ public class Main_1152 {
 
         String s = input.nextLine();
         String[] p = s.split(" ");
+
         int count = 0;
         for (int i = 0; i < p.length; ++i) {
-            if (p[i].equals("")) {
-                continue;
-            } else {
+            if (!p[i].equals("")) {
                 count++;
             }
         }

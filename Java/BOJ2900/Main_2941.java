@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main_2941 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         String s = input.next();
         String[] list = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
 
@@ -13,6 +14,5 @@ public class Main_2941 {
         }
 
         System.out.println(s.length());
-
     }
 }
