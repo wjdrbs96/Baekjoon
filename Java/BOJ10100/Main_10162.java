@@ -25,7 +25,7 @@ public class Main_10162 {
         T = T % 10;
 
         if (T == 0) {
-            System.out.println(sb.toString());
+            System.out.println(sb);
         } else {
             System.out.println(-1);
         }

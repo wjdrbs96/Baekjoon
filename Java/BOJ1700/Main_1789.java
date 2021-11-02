@@ -6,6 +6,7 @@ public class Main_1789 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
         long num = scan.nextLong();
         long sum = 0;
 
@@ -18,6 +19,5 @@ public class Main_1789 {
             i++;
         }
         System.out.println(i - 1);
-        scan.close();
     }
 }

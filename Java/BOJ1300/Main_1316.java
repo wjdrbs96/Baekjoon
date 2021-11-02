@@ -13,14 +13,18 @@ public class Main_1316 {
 
         int N = Integer.parseInt(br.readLine());
 
+        int count = N;
         for (int i = 0; i < N; ++i) {
             String s = br.readLine();
 
-            for (int j = 0; j < s.length(); ++j) {
-                
+            for (int j = 1; j < s.length(); ++j) {
+                if (s.indexOf(s.charAt(j - 1)) > s.indexOf(s.charAt(j))) {
+                    count--;
+                    break;
+                }
             }
-
         }
 
+        System.out.println(count);
     }
 }

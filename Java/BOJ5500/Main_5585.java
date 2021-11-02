@@ -14,7 +14,7 @@ public class Main_5585 {
 
         for (int coin : coins) {
             if (coin <= change) {
-                result += change / coin;
+                result += (change / coin);
                 change %= coin;
             }
         }

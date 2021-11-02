@@ -2,7 +2,6 @@ package Baekjoon.Java.BOJ10800;
 
 import java.util.Scanner;
 
-
 public class Main_10872 {
 
     public static void main(String[] args) {
@@ -16,7 +15,7 @@ public class Main_10872 {
             temp = temp * i;
 
         }
+
         System.out.println(temp);
     }
-
 }

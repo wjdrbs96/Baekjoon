@@ -14,8 +14,8 @@ public class Main_2775_2 {
         int T = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < T; ++i) {
-            int k = Integer.parseInt(br.readLine());
-            int n = Integer.parseInt(br.readLine());
+            int k = Integer.parseInt(br.readLine()); // 층
+            int n = Integer.parseInt(br.readLine()); // 호
 
             int[] list = new int[n];
 
