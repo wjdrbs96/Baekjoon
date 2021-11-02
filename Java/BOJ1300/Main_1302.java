@@ -3,6 +3,7 @@ package Baekjoon.Java.BOJ1300;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main_1302 {
@@ -28,7 +29,7 @@ public class Main_1302 {
             max = Math.max(max, hm.get(a));
         }
 
-        ArrayList<String> list = new ArrayList<>(hm.keySet());
+        List<String> list = new ArrayList<>(hm.keySet());
         Collections.sort(list);
 
         for (String a : list) {

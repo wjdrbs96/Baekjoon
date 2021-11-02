@@ -18,14 +18,15 @@ public class Main_1157 {
         char result = '?';
 
         for (int i = 0; i < s.length(); ++i) {
-            alPha[s.charAt(i) - 97]++;
-            if (max < alPha[s.charAt(i) - 97]) {
-                max = alPha[s.charAt(i) - 97];
+            int count = alPha[s.charAt(i) - 97]++;
+            if (max < count) {
+                max = count;
                 result = s.charAt(i);
-            } else if (max == alPha[s.charAt(i) - 97]) {
+            } else if (max == count) {
                 result = '?';
             }
         }
+
         System.out.println(String.valueOf(result).toUpperCase());
     }
 }
