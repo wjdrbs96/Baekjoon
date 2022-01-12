@@ -30,3 +30,8 @@ public class Main_11286 {
         }
     }
 }
+
+class Value {
+    int originalValue; // 원본 값
+    int absValue;      // 절대 값
+}
