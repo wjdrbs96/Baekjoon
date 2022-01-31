@@ -59,7 +59,6 @@ public class Main_13565 {
             int ny = edge.y + dy[i];
 
             if (nx > 0 && nx < N + 1 && ny > 0 && ny < M + 1) {
-
                 if (adj[nx][ny] == '0' && !visit[nx][ny]) {
                     visit[nx][ny] = true;
                     dfs(new Edge(nx, ny));
