@@ -27,6 +27,11 @@ public class Main_17836 {
         T = Integer.parseInt(st.nextToken());
 
         adj = new int[N + 1][M + 1];
+        /**
+         * 2차원 배열로 만들었을 경우, 그림과 같이 빨간색 동그라미 부분을 그램을 가지지 않고 먼저 방문했을경우,
+         * 그램을 가지고 저 부분을 지나칠 수 없게 된다.
+         * 그래서 그램을 가진 상태로 방문을 했는지, 가지지 않은 상태에서 방문을 했는지 나타내기 위해 visit를 3차원 배열로 만들어야한다.
+         */
         visit = new boolean[N + 1][M + 1][2];
 
         for (int i = 1; i < N + 1; ++i) {
@@ -65,7 +70,7 @@ public class Main_17836 {
                             visit[nx][ny][0] = true;
                         } else if (!visit[nx][ny][0] && adj[nx][ny] == 2) {
                             queue.add(new Edge(nx, ny, e.count + 1, true));
-                            visit[nx][ny][1] = true;
+                            visit[nx][ny][0] = true;
                         }
                     } else { // 그람이 있을 때
                         if (!visit[nx][ny][1]) {
